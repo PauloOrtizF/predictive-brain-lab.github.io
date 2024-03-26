@@ -9,12 +9,6 @@
   <!--[if lt IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
   <![endif]-->
-  <style>
-    .menu-wrapper {
-      height: calc(100vh - 150px); /* Adjust the value as per your design */
-      overflow-y: auto;
-    }
-  </style>
 </head>
 <body>
 <div class="wrapper">
@@ -31,16 +25,16 @@
       <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
     </ul>
     {% endif %}
-    <div class="menu-wrapper">
-      {% assign sorted = site.html_pages | sort:"rank" %}
-      {% for item in sorted %}
-        {% if item.title and item.rank %}
-          <menu>
+    <div class="dropdown">
+      <button class="dropbtn">Menu</button>
+      <div class="dropdown-content">
+        {% assign sorted = site.html_pages | sort:"rank" %}
+        {% for item in sorted %}
+          {% if item.title and item.rank %}
             <a href="{{ item.path | replace:'.md','.html' }}">{{ item.title }}</a>
-            <!-- <span> [ {{ item.path }} - {{ item.title }} - {{ item.rank }} ] </span> -->
-          </menu>
-        {% endif %}
-      {% endfor %}
+          {% endif %}
+        {% endfor %}
+      </div>
     </div>
   </header>
   <section>
