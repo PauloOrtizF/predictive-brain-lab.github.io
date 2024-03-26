@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Home
+rank: 1
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
