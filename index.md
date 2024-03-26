@@ -3,7 +3,7 @@ layout: default
 title: Home
 rank: 1
 ---
-I like horses - NOT - NoT again - will it work? does it scroll?
+I like horses - NOT - NoT again - will it work? does it scroll? let's try again
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
