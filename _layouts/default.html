@@ -26,15 +26,15 @@
     </ul>
     {% endif %}
     <div class="dropdown">
-      <button class="dropbtn">Menu</button>
-      <div class="dropdown-content">
+      <select onchange="location = this.value;">
+        <option value="#">Select a Page</option>
         {% assign sorted = site.html_pages | sort:"rank" %}
         {% for item in sorted %}
           {% if item.title and item.rank %}
-            <a href="{{ item.path | replace:'.md','.html' }}">{{ item.title }}</a>
+            <option value="{{ item.path | replace:'.md','.html' }}">{{ item.title }}</option>
           {% endif %}
         {% endfor %}
-      </div>
+      </select>
     </div>
   </header>
   <section>
