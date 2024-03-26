@@ -3,7 +3,7 @@ layout: default
 title: Home
 rank: 1
 ---
-I like horses
+I like horses - NOT
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
