@@ -3,7 +3,7 @@ layout: default
 title: Home
 rank: 1
 ---
-I like horses - NOT - Noy again
+I like horses - NOT - NoT again
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
