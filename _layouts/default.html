@@ -27,11 +27,11 @@
     {% endif %}
     <div class="dropdown">
       <select onchange="location = this.value;">
-        <option value="#">Select a Page</option>
+        <option value="{{ "/" | absolute_url }}">Select a Page</option>
         {% assign sorted = site.html_pages | sort:"rank" %}
         {% for item in sorted %}
           {% if item.title and item.rank %}
-            <option value="{{ item.path | replace:'.md','.html' }}">{{ item.title }}</option>
+            <option value="{{ site.baseurl }}{{ item.path | replace:'.md','.html' }}">{{ item.title }}</option>
           {% endif %}
         {% endfor %}
       </select>
