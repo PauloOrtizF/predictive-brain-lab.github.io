@@ -1,7 +1,6 @@
-title: Minimal theme
+title: Predictive Brain Lab Wiki
 logo: /assets/img/logo.png
-description: Minimal is a theme for GitHub Pages.
-show_downloads: true
+description: Documentation for techincal information relevant to the lab
 google_analytics:
 theme: jekyll-theme-minimal
 
