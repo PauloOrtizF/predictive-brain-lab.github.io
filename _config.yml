@@ -2,7 +2,7 @@ title: Predictive Brain Lab Wiki
 logo: /images/pred-lab-logo.png
 google_analytics:
 theme: jekyll-theme-minimal
-description: no
+description: false
 
 plugins:
   - jekyll-relative-links
