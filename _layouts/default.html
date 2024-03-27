@@ -4,14 +4,16 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   {% seo %}
   <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
   <!--[if lt IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
   <![endif]-->
   <style>
-    footer {
-      margin-top: 20px; /* Adjust the margin-top value as needed */
+    .menu-wrapper {
+      max-height: calc(100vh - 200px); /* Adjust the value as per your design */
+      overflow-y: auto;
     }
   </style>
 </head>
@@ -30,16 +32,16 @@
       <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
     </ul>
     {% endif %}
-    <div class="dropdown">
-      <select onchange="location = this.value;">
-        <option value="{{ "/" | absolute_url }}">Select a Page</option>
-        {% assign sorted = site.html_pages | sort:"rank" %}
-        {% for item in sorted %}
-          {% if item.title and item.rank %}
-            <option value="{{ site.baseurl }}{{ item.path | replace:'.md','.html' }}">{{ item.title }} - Rank: {{ item.rank }}</option>
-          {% endif %}
-        {% endfor %}
-      </select>
+    <div class="menu-wrapper">
+      {% assign sorted = site.html_pages | sort:"rank" %}
+      {% for item in sorted %}
+        {% if item.title and item.rank %}
+          <menu>
+            <a href="{{ item.path | replace:'.md','.html' }}">{{ item.title }} - Rank: {{ item.rank }}</a>
+            <!-- <span> [ {{ item.path }} - {{ item.title }} - {{ item.rank }} ] </span> -->
+          </menu>
+        {% endif %}
+      {% endfor %}
     </div>
   </header>
   <section>
