@@ -4,16 +4,15 @@ title: Home
 rank: 1
 ---
 
-## Welcome to the Predictive Brain Lab Wiki! ##
+Welcome to the Predictive Brain Lab Wiki!
 
 We are based at the [Donders Institue for Brain, Cognition and Behaviour](https://www.ru.nl/en/donders-institute) at [Radboud University](https://www.ru.nl/en) in Nijmegen, Netherlands. This is the lab's wiki, which provides information regarding the **technical skills** relevant to perform research as part of our group. 
 
-This handbook is the result of the efforts of the PI Floris de Lange and current and previous members of the lab. For information regarding our team, research, and publications you can see our [website](https://www.predictivebrainlab.com/). 
+This handbook is the result of the efforts of the PI [Floris de Lange](https://www.predictivebrainlab.com/people/floris-de-lange) and [current and previous members of the lab](https://www.predictivebrainlab.com/people). For information regarding our team, research, and publications you can see our [website](https://www.predictivebrainlab.com/). 
 
-We hope you have a great time during your stay in the lab and that this respository results useful for you!
+We hope you have a great time during your stay in the lab and that this respository results useful to you!
 
-  
-  
+
 
 ### The wiki is divided into the following sections:
 
