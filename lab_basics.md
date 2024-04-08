@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Vision & Goals
+title: Lab Basics
 rank: 2
 ---
 
