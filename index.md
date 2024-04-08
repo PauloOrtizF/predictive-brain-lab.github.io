@@ -19,7 +19,7 @@ We hope you have a great time during your stay in the lab and that this resposit
 #### The wiki is divided into the following sections:
   
 
-#### [Lab Basics](./lab_basics.md).
+#### [Lab Basics](./lab_basics.md)
 
 If you are new to the lab, or have more general admin questions, this is the place to start. You can find a guide to the lab, guides for more general procedures and some useful links to Donders Institute resources.
 
@@ -30,7 +30,7 @@ Here you will find the lab's guidelines and pipelines for conducting and analysi
 
 * * * 
 
-#### [Technical Help](./technical_help.md).
+#### [Technical Help](./technical_help.md)
 
 Here you will find some technical guides (e.g. how to use the cluster), as well as links to sample code and useful resources.
 
