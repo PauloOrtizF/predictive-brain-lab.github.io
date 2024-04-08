@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Markdown Example
-rank: 6
 ---
 I like horses - NOT - NoT again - will it work? does it scroll? let's try again - hope NOT - last hope
 
