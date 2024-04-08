@@ -19,18 +19,18 @@ We hope you have a great time during your stay in the lab and that this resposit
 #### The wiki is divided into the following sections:
   
 
-### [Lab Basics](./lab_basics.md).
+#### [Lab Basics](./lab_basics.md).
 
 If you are new to the lab, or have more general admin questions, this is the place to start. You can find a guide to the lab, guides for more general procedures and some useful links to Donders Institute resources.
 
 * * * 
-### Standard Operating Procedures
+#### Standard Operating Procedures
 
 Here you will find the lab's guidelines and pipelines for conducting and analysing [behavioural](./behavioral_testing.md), [fMRI](./fMRI.md) and [M/EEG](./MEG.md) data, as well as some general guidelines for conducting research in the lab.
 
 * * * 
 
-### [Technical Help](./technical_help.md).
+#### [Technical Help](./technical_help.md).
 
 Here you will find some technical guides (e.g. how to use the cluster), as well as links to sample code and useful resources.
 
