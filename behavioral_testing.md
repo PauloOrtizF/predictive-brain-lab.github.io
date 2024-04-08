@@ -1,5 +1,5 @@
 ---
 layout: default
-title: Lab Info
+title: Behavioral Testing
 rank: 3
 ---
