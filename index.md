@@ -3,6 +3,36 @@ layout: default
 title: Home
 rank: 1
 ---
+
+### Welcome to the Predictive Brain Lab Wiki! ###
+
+We are based at the [Donders Institue for Brain, Cognition and Behaviour] (https://www.ru.nl/en/donders-institute) at [Radboud University](https://www.ru.nl/en) in Nijmegen, Netherlands. This is the lab's wiki, which provides information regarding the **technical skills** relevant to perform research as part of our group. This handbook is the result of the efforts of the PI Floris de Lange and current and previous members of the lab. For information regarding our team, research, and publications you can see our [website](https://www.predictivebrainlab.com/). We hope you have a great time during your stay in the lab and that this respository results useful for you. 
+
+* * *
+
+### The wiki is divided into the following sections:
+
+* * * 
+
+### Lab Basics
+
+If you are new to the lab, or have more general admin questions, this is the place to start. You can find a guide to the lab, guides for more general procedures and some useful links to Donders resources.
+
+* * * 
+### Standard Operating Procedures
+
+Here you will find the lab's guidelines and pipelines for conducting and analysing behavioural, fMRI and M/EEG data, as well as some general guidelines for conducting research in the lab.
+
+* * * 
+
+### Technical Help
+
+Here you will find some technical guides (e.g. how to use the cluster), as well as links to sample code and useful resources.
+
+* * * 
+
+
+
 I like horses - NOT - NoT again - will it work? does it scroll? let's try again - hope NOT - last hope
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
