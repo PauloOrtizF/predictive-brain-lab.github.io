@@ -30,5 +30,5 @@ In what follows, the current general SOP are outlined. This section will gradual
 **When starting testing**
 * Take a look at the [concept checklist](https://docs.google.com/document/d/1ZSTiefJdUuVGoO00uoj6vZxGBkfi-IeamdLvl56VwdY/edit?usp=sharing) and alter according to your own interests
 
-### Giving a PPM
+## Giving a PPM
 
