@@ -12,14 +12,13 @@ This handbook is the result of the efforts of the PI Floris de Lange and current
 
 We hope you have a great time during your stay in the lab and that this respository results useful for you!
 
-
-
+  
+  
 
 ### The wiki is divided into the following sections:
 
-
-
-
+  
+  
 
 ## Lab Basics
 
