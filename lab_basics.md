@@ -50,4 +50,27 @@ Feeling intimidated about giving a PPM? No need to worry! The researchers in the
 * Schedule your practice session well in advance (at least a week before your real PPM), so you will have enough time to incorporate the feedback. You can find the organizer of the Group Meetins [here](https://docs.google.com/spreadsheets/d/1-p_r4GLCh4wok5BapZ6wtmsAPfmVzbRjLF9QH-F-mtI/edit?usp=sharing)
 * Take notes during your (practice) PPM or ask a group member to do so for you. This ensures you will caputre all the important and interest comments and suggestions people bring up during your presentation!
 
+### Calculating Sample Size
+* Sample size should be established before data collection begins. Whenever possible, conduct a power calculation to determine sample size. We recommend using [G*Power](https://www.psychologie.hhu.de/arbeitsgruppen/allgemeine-psychologie-und-arbeitspsychologie/gpower.html) software for it. It contains useful tutorials and videos on how to get an informed sample size for your study.
+* If a power calculation for your study is too complicated, you can follow this default rule: Aim for studies with at least 80% power to detect effect sizes of at least moderate magnitude (Cohen's d > 0.5).
+  * For within-subject designs, recruit N = 34 subjects with good data quality.
+  * For between-subjects designs, recruit N = 64 subjects per group.
+
+### Project Proposal Sheet
+
+
+
+
+
+Project Proposal Sheet
+
+Before you give your PPM, you prepare a form called a Project Proposal Sheet. After you have given your PPM, you hand in this form.
+
+See the intranet for a download on the form and to read about the requirements.
+
+Tips:
+
+Most projects in the lab fall under the blanket CMO2014/288.
+For behavioral projects the standard storage quota will usually be enough. For neuroimaging projects, you will calculate your own storage quota. If you need to store in-between analysis steps, you may need some storage space for this also.
+Get all the required signatures before you give your PPM. That way, you can hand in the form right away after your PPM so you will get your project number and can start making bookings etc.
 
