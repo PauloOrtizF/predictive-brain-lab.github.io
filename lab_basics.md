@@ -11,9 +11,9 @@ This section covers common research practices within the lab. For a general intr
   - [Giving a Project Proposal Meeting (PPM)](#giving-a-project-proposal-meeting-ppm)
   - [Preregistration](#preregistration)
 - [Communicating your Research Findings](communicating-your-research-findings)
+  -[Creating Figures](creating-figures) 
 
 # Standard Operating Procedures (SOP)
-## Preparing Experimental Design
 The Predictive Brain Lab has adopted standarized procedures for designing experiments and processing data for several years now. The employment of **standard operating procedures (SOP)** has three main advantages over individualized pipelines:
 1. They provide new lab members with easily understandable and expandable templates for their research
 2. They facilitate the exchange of data amongst lab members and external parties by establishing a common structure.
@@ -21,7 +21,7 @@ The Predictive Brain Lab has adopted standarized procedures for designing experi
 
 In the following section, we will outline the general SOP. Over time, as all members adhere to these guidelines, the procedures will become more specific. Typically, these guidelines will be concise and direct you to detailed information about the aspects discussed on the [Donders Intranet Resources](https://intranet.donders.ru.nl/index.php?id=1). 
 
-### Experiment preparation
+## Preparing Experimental Designs
 **Following initial study design**
 * Presentation on the General Lab Meeting to get feedback on initial study design
 * Test scripts, equipment, tasks, and procedures with a small pilot (see [here](https://intranet.donders.ru.nl/index.php?id=5960) for rules about pilot designs at DCCN and [here](https://intranet.donders.ru.nl/index.php?id=laboratories) on how to book a lab)
@@ -110,9 +110,15 @@ The current page provides you with guidance on the information you might want to
 9. Other
 - Are there any other aspects of the study you would like to preregister?
 
-- #Communicating Your Research Findings
 
 The following three links are examples of pre-registered studies in the lab using the OSF:
 * Matthias Fritsche - [The role of feature-based attention for serial dependence in perceptual decision making](https://osf.io/q7gj3/)
 * Chuyao Yan - [Predicting groups of objects in the visual ventral stream](https://osf.io/s59p6)
 * Jonas Karolis Degutis - [Laminar fMRI at 3T: A replication attempt of top-down and bottom-up laminar activity in the early visual cortex](https://osf.io/txuye/)
+
+# Communicating Your Research Findings
+The ability to clearly communicate your findings with other researchers and the general public is one of the most important skills to have as a scientist. For instance, think about the emphasis we give to paper figures during journal club discussion. They not only emphasize key points in a paper but also enable other researchers to consider alternative conclusions from the same data.
+
+The present section will provide  guidelines or resources you can use to generate figures, posters, give lectures or other forms of scientific communication. 
+
+## Creating Figures
