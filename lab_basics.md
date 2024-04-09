@@ -122,3 +122,21 @@ The ability to clearly communicate your findings with other researchers and the 
 The present section will provide  guidelines or resources you can use to generate figures, posters, give lectures or other forms of scientific communication. 
 
 ## Creating Figures
+
+
+
+
+### ALL OF THE BELOW IS ANNE URAI's LAB INFO
+I’m a sucker for nice-looking figures (and fonts).
+Learn how to make your figures look good straight out of Python/Matlab/Julia/R, and minimize the time spent changing things in Illustrator/InkScape. This will not only save a lot of time in the long run, it also makes your analyses more reproducible.
+
+Here are slides of a figure workshop we did in lab meeting on 26 February 2024. Watch back the recording when you’re starting to make your own figures!
+
+Some other resources:
+
+Learn to use colors to your advantage: Borland D, Taylor II RM (2007) Rainbow color map (still) considered harmful. IEEE computer graphics and applications 27:14–17.
+Tufte ER (2001) The Visual Display of Quantitative Information. Graphics Press.
+Weissgerber TL, Milic NM, Winham SJ, Garovic VD (2015) Beyond Bar and Line Graphs: Time for a New Data Presentation Paradigm. PLOS Biology 13:e1002128.
+Ten Simple Rules for Better Figures
+
+
