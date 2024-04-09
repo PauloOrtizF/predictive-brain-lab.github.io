@@ -7,9 +7,9 @@ This section covers common research practices within the lab. For a general intr
 
 <!-- MarkdownTOC -->
 
-- [Standard Operating Procedures (SOP) for Experimental Designs](#section-1)
-- [Giving a Project Proposal Meeting (PPM)](#section-2)
-- [Preregistration](#section-3)
+- [Standard Operating Procedures (SOP) for Experimental Designs](##section-1)
+- [Giving a Project Proposal Meeting (PPM)](##section-2)
+- [Preregistration](##section-3)
 
 <!-- /MarkdownTOC -->
 
