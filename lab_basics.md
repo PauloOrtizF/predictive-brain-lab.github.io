@@ -3,17 +3,19 @@ layout: default
 title: Lab Basics
 rank: 2
 ---
-This section will provide you with information regarding common technical practices within the lab. If what you are looking for is a more general introduction to our research group, you might want to look at our lab handbook[INSERT LINK WHEN READY].
+This section covers common research practices within the lab. For a general introduction to our research group, you might want to look at our lab handbook[INSERT LINK WHEN READY].
 
 ## Standard Operating Procedures
+The Predictive Brain Lab has adopted standarized procedures for designing experiments and processing data for several years now. The employment of **standard operating procedures (SOP)** has three main advantages over individualized pipelines:
+1. They provide new lab members with easily understandable and expandable templates for their research
+2. They facilitate the exchange of data amongst lab members and external parties by establishing a common structure.
+3. Standarized approaches facilitates the comparison of effects between different experiments.
 
-At present, the members of the Predictive Brain lab often use similar, but not really standardised ways of processing their data. This will gradually change in the future, as we are committed to using standard operating procedures. These are thought to serve three purposes. First, they provide new researchers with easy-to-follow and easy-to-expand templates they can apply to their own research. Second, a standardised format for analysing data offers us all the ability to swiftly and easily exchange data with us and other labs. Lastly, standardised approaches offer the ability to compare the effects of different experiments.
-
-In what follows, the current general SOP are outlined. This section will gradually expand as more standardisation is feasibly achieved between group members.
+In the following section, we will outline the general SOP. Over time, as all members adhere to these guidelines, the procedures will become more specific. Typically, these guidelines will be concise and direct you to detailed information about the aspects discussed on the [Donders Intranet Resources](https://intranet.donders.ru.nl/index.php?id=1). 
 
 ### Experiment preparation
 **After initial study design**
-* Small pilot (lab-specific booking rules here)
+* Small pilot (lab-specific booking rules [here](https://intranet.donders.ru.nl/index.php?id=laboratories))
 * PPM (see below), note that it might take up to a few weeks before the project code is available
 * More extensive pilot (if necessary)
 
