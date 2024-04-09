@@ -125,12 +125,18 @@ The present section will provide  guidelines or resources you can use to generat
 Eye-catching figures and fonts do not onlu facilitate communication but imrpove the experience of listening to a presentation or reading a paper! Mastering the skill of creating visually appealing figures directly from your code editor (Python, MatLab, R) not only saves you time but also promotes reproducibility in your analyses!
 
 ### Generating Figures
-Various resources are available for learning how to create figures from your data. Below, we'll highlight those tailored to the three main programs used by lab members: **Python, R, and Matlab**. (note: _if you are new to programming, check the [Technical Help](/.technical_help.md) section, we highlight resources to learn how to code_)
+Various resources are available for learning how to create figures from your data. Below, we'll highlight those tailored to the three main programs used by lab members: **Python, R, and Matlab**. (note: _if you are new to programming, check the [Technical Help](./technical_help.md) section, we highlight resources to learn how to code_)
 
 Nonetheless, there are notions that are important to keep in mind regardless of the software used for your analyses. [Here](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833) is a concise paper with ten important considerations to keep in mind when generating figures.
 
 **MatLab Resources**
+As a payed software, the developers of MatLab also include a series of tutorials to learn how to code using this programming language. 
+This website contains useful information on how to visualize and generate figures using MATLAB:
+* [MATLAB for Data Processing and Visualization](https://matlabacademy.mathworks.com/details/matlab-for-data-processing-and-visualization/mlvi)
 
+As part of the Donders Insitute you can download MATLAB on your office PC free of charge (ask the Technical Group (TG) or check the intranet [page](https://intranet.donders.ru.nl/index.php?id=computerservices) for help). If you would like to have it installed on your own computer, you can use your university email for an educational license (you can ask the [TG](https://intranet.donders.ru.nl/index.php?id=helpdesk) for help)
+
+**Python Resources**
 
 
 
