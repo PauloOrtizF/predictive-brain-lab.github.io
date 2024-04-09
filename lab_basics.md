@@ -117,11 +117,20 @@ The following three links are examples of pre-registered studies in the lab usin
 * Jonas Karolis Degutis - [Laminar fMRI at 3T: A replication attempt of top-down and bottom-up laminar activity in the early visual cortex](https://osf.io/txuye/)
 
 # Communicating Your Research Findings
-The ability to clearly communicate your findings with other researchers and the general public is one of the most important skills to have as a scientist. For instance, think about the emphasis we give to paper figures during journal club discussion. They not only emphasize key points in a paper but also enable other researchers to consider alternative conclusions from the same data.
+The ability to clearly communicate your findings with other researchers and the general public is one of the most important skills to have as a scientist. For instance, think about the emphasis we give to paper figures during journal club discussions. They not only emphasize key points in a paper but also enable other researchers to consider alternative conclusions from the same data.
 
 The present section will provide  guidelines or resources you can use to generate figures, posters, give lectures or other forms of scientific communication. 
 
 ## Creating Figures
+Eye-catching figures and fonts do not onlu facilitate communication but imrpove the experience of listening to a presentation or reading a paper! Mastering the skill of creating visually appealing figures directly from your code editor (Python, MatLab, R) not only saves you time but also promotes reproducibility in your analyses!
+
+### Generating Figures
+Various resources are available for learning how to create figures from your data. Below, we'll highlight those tailored to the three main programs used by lab members: **Python, R, and Matlab**. (note: _if you are new to programming, check the [Technical Help](/.technical_help.md) section, we highlight resources to learn how to code_)
+
+Nonetheless, there are notions that are important to keep in mind regardless of the software used for your analyses. [Here](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833) is a concise paper with ten important considerations to keep in mind when generating figures.
+
+**MatLab Resources**
+
 
 
 
