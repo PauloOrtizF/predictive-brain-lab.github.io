@@ -58,19 +58,11 @@ Feeling intimidated about giving a PPM? No need to worry! The researchers in the
 
 ### Project Proposal Sheet
 
+Part of doing a PPM entails filling in the [Project Proposal Sheet](https://intranet.donders.ru.nl/index.php?id=research-ppm) online. 
+**Tips**
+* Most projects in the lab fall under the blanket of approval CMO2014/288. This means you may not need to request ethical approval for your individual project! See [here](https://intranet.donders.ru.nl/index.php?id=6771) if that is the case for you.
+* For behavioral projects the standard storage quota is usually enough. For neuroimaging projects, you will calculate your own storage quota. **Keep in mind** that is you need to store in-between analyses steps, you may need storage space for that.
+* To make the process as smooth as possible, get all the required signatures of your Project Proposal Sheet before the PPM presentation. Thus, you can start your experiment right away.
 
 
-
-
-Project Proposal Sheet
-
-Before you give your PPM, you prepare a form called a Project Proposal Sheet. After you have given your PPM, you hand in this form.
-
-See the intranet for a download on the form and to read about the requirements.
-
-Tips:
-
-Most projects in the lab fall under the blanket CMO2014/288.
-For behavioral projects the standard storage quota will usually be enough. For neuroimaging projects, you will calculate your own storage quota. If you need to store in-between analysis steps, you may need some storage space for this also.
-Get all the required signatures before you give your PPM. That way, you can hand in the form right away after your PPM so you will get your project number and can start making bookings etc.
-
+## Preregistration
