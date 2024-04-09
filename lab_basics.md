@@ -7,9 +7,9 @@ This section covers common research practices within the lab. For a general intr
 
 **INDEX**
 - [Standard Operating Procedures (SOP) for Experimental Designs](#standard-operating-procedures-sop-for-experimental-designs)
- - [Preparing Experimental Designs](#preparing-experimental-design)
- - [Giving a Project Proposal Meeting (PPM)](#giving-a-project-proposal-meeting-ppm)
- - [Preregistration](#preregistration)
+  - [Preparing Experimental Designs](#preparing-experimental-design)
+  - [Giving a Project Proposal Meeting (PPM)](#giving-a-project-proposal-meeting-ppm)
+  - [Preregistration](#preregistration)
 - [Communicating your Research Findings](communicating-your-research-findings)
 
 # Standard Operating Procedures (SOP)
