@@ -7,10 +7,13 @@ This section covers common research practices within the lab. For a general intr
 
 **INDEX**
 - [Standard Operating Procedures (SOP) for Experimental Designs](#standard-operating-procedures-sop-for-experimental-designs)
-- [Giving a Project Proposal Meeting (PPM)](#giving-a-project-proposal-meeting-ppm)
-- [Preregistration](#preregistration)
+ - [Preparing Experimental Designs](#preparing-experimental-design)
+ - [Giving a Project Proposal Meeting (PPM)](#giving-a-project-proposal-meeting-ppm)
+ - [Preregistration](#preregistration)
+- [Communicating your Research Findings](communicating-your-research-findings)
 
-## Standard Operating Procedures (SOP) for Experimental Designs
+# Standard Operating Procedures (SOP)
+## Preparing Experimental Design
 The Predictive Brain Lab has adopted standarized procedures for designing experiments and processing data for several years now. The employment of **standard operating procedures (SOP)** has three main advantages over individualized pipelines:
 1. They provide new lab members with easily understandable and expandable templates for their research
 2. They facilitate the exchange of data amongst lab members and external parties by establishing a common structure.
@@ -106,6 +109,8 @@ The current page provides you with guidance on the information you might want to
 - i.e. if they showed excessive motion during scanning.
 9. Other
 - Are there any other aspects of the study you would like to preregister?
+
+- #Communicating Your Research Findings
 
 The following three links are examples of pre-registered studies in the lab using the OSF:
 * Matthias Fritsche - [The role of feature-based attention for serial dependence in perceptual decision making](https://osf.io/q7gj3/)
