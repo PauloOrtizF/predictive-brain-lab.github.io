@@ -130,28 +130,29 @@ Various resources are available for learning how to create figures from your dat
 Nonetheless, there are notions that are important to keep in mind regardless of the software used for your analyses. [Here](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833) is a concise paper with ten important considerations to keep in mind when generating figures.
 
 **MatLab Resources**
-As a payed software, the developers of MatLab also include a series of tutorials to learn how to code using this programming language. 
-This website contains useful information on how to visualize and generate figures using MATLAB:
+
+MATLAB, being paid software, offers tutorials to learn how to code using their programming language. The developers provide a series of tutorials to help users grasp coding concepts. This website contains useful information on how to visualize and generate figures using MATLAB:
 * [MATLAB for Data Processing and Visualization](https://matlabacademy.mathworks.com/details/matlab-for-data-processing-and-visualization/mlvi)
 
-As part of the Donders Insitute you can download MATLAB on your office PC free of charge (ask the Technical Group (TG) or check the intranet [page](https://intranet.donders.ru.nl/index.php?id=computerservices) for help). If you would like to have it installed on your own computer, you can use your university email for an educational license (you can ask the [TG](https://intranet.donders.ru.nl/index.php?id=helpdesk) for help)
+As a member of the Donders Insitute, you can download MATLAB on your office PC free of charge. Simply reach out to the Technical Group (TG) or refer to the institute's intranet [page](https://intranet.donders.ru.nl/index.php?id=computerservices) for assistance. If you prefer to install it on your personal computer, you can obtain an educational license using your university email. The TG can assist you with this process as well.
 
 **Python Resources**
 
+You can find a large range of tutorials for data visualization using Python online. Here, we will mention resources that have been useful for members of the lab.
+
+The two main visualization libraries in Python are the following:
+* [MatPlotLib](https://matplotlib.org/stable/) - Widely used, user friendly and includes a large range of visualization options. Their website provides tutorials as well as sample code.
+* [SeaBorn](https://seaborn.pydata.org/index.html) - Visualization library based on matplotlib. Elegant and user friendly. Increasingly popular in the Neuro-AI community. Includes sample code and tutorials for different kinds of analyses.
+
+If you do not feel confident to use these skills on your own or simply by looking at the sample code. These tutorials are great to introduce you to these two libraries:
+* [DataCamp](https://app.datacamp.com/learn/courses?technologies=2&topics=4) - It contains a variety of courses on data visualization using Python. Check which one makes most sense for your needs.
+* [CodeAcademy](https://www.codecademy.com/learn/paths/visualize-data-with-python)
+
+Important to note is that these two resources are paid. Ask lab members for free access. 
 
 
 
-### ALL OF THE BELOW IS ANNE URAI's LAB INFO
-I’m a sucker for nice-looking figures (and fonts).
-Learn how to make your figures look good straight out of Python/Matlab/Julia/R, and minimize the time spent changing things in Illustrator/InkScape. This will not only save a lot of time in the long run, it also makes your analyses more reproducible.
 
-Here are slides of a figure workshop we did in lab meeting on 26 February 2024. Watch back the recording when you’re starting to make your own figures!
 
-Some other resources:
-
-Learn to use colors to your advantage: Borland D, Taylor II RM (2007) Rainbow color map (still) considered harmful. IEEE computer graphics and applications 27:14–17.
-Tufte ER (2001) The Visual Display of Quantitative Information. Graphics Press.
-Weissgerber TL, Milic NM, Winham SJ, Garovic VD (2015) Beyond Bar and Line Graphs: Time for a New Data Presentation Paradigm. PLOS Biology 13:e1002128.
-Ten Simple Rules for Better Figures
 
 
