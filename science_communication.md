@@ -9,7 +9,8 @@ The ability to clearly communicate your findings with other researchers and the 
 
 The present section will provide  guidelines or resources you can use to generate figures, posters, give lectures or other forms of scientific communication. 
 
-- [Creating Figures](#creating-figures) 
+- [Creating Figures](#creating-figures)
+- [Scientific Poster](#scientific-poster)
 
 ## Creating Figures
 Eye-catching figures and fonts do not onlu facilitate communication but imrpove the experience of listening to a presentation or reading a paper! Mastering the skill of creating visually appealing figures directly from your code editor (Python, MatLab, R) not only saves you time but also promotes reproducibility in your analyses!
@@ -74,3 +75,28 @@ Here are a list of resources that might be useful when generating figures:
 * [Color Maps for Matlab Users](https://nl.mathworks.com/matlabcentral/fileexchange/34087-cbrewer-colorbrewer-schemes-for-matlab)
 * [Color Maps for Python Users](http://colorcet.pyviz.org/)
 
+## Scientific Poster
+
+A poster presentation at a conference offers a relaxed environment to present your work and receive valuable feedback early on (you can present early results, unfinished things, pilot data and even just the design itself, depending on the conference). Typically, you will be allocated a specific time and location to set up your poster. Try to arrive early so you have enough time to set up your poster (and bring a friend to give you a hand!). Conference organizers usually provide you with tacks/tape/whatever else needed to put the poster up, so you only need to supply the poster and yourself. You may be expected to stay at your poster for around an hour (double-check this with the conference program), so to engage with interested attendees. People will be walking around and looking at all the postersm and it can get quite crowded. Be prepared to give a short explanation of your work, keeping it casual and brief. In some cases, people will indicate they want more information and will aks you questions which will give you the chance to get into more detail. 
+
+**Tips**:
+* Think of your poster presentation as a conversation - you are explaining your work to someone, and using the poster simply to support you story. Do NOT just read out what is written on the poster.
+* Prepare an extra-brief explanation (<2 minutes). Poster sessions can be very croweded and sometimes people will just want a very short explanation so they have enough time to look at other work.
+* A poster is NOT the same as a research paper. You should focus on extracting the **key essence and necessary details**. If you are not standing by your poster, people should get an idea of what your work is about, but it should not be something that other researchers read. Keep it brief and simple. The emphasis should be on the figures (see above on how to generate figures)
+
+Here are some links that you might find useful:
+
+* [Giving an Effective Poster Presentation](https://www.youtube.com/watch?v=vMSaFUrk-FA) (video)
+* [How to create a better research poster in less time](https://www.youtube.com/watch?v=1RwJbhkCA58) (video)
+* [Ten Simple Rules for a Good Poster Presentation](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1876493/)
+* [Tips for presenting your scientific poster at a conference](https://www.scientifica.uk.com/neurowire/tips-for-presenting-your-scientific-poster-at-a-conference)
+
+### Poster Templates
+Commonly used software for creating posters includes Adobe Illustrator, InDesign, PowerPoint, or Inkscape. Choose the one you are most comfortable with. At the DCCN, the default options are typically the Donders [templates](https://intranet.donders.ru.nl/index.php?id=2963). You can download the specific format that suits your needs from the intranet page above. Alternatively, if you have a poster template you have encountered before and want to use, you are more than welcome to do so. All Radboud logos are available for download on this [page](https://www.ru.nl/corporateidentity/basic-elements/logo/) to include them in your poster.
+
+Here are some examples from lab members:
+
+* Micha Heilbron
+* Marisha Manahova - Familiarity and Expectation
+* Marisha Manahova - Signal Truncation
+* Patricia Romero Verdugo
