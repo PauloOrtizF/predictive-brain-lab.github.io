@@ -131,7 +131,7 @@ Nonetheless, there are notions that are important to keep in mind regardless of 
 
 **MatLab Resources**
 
-MATLAB, being paid software, offers tutorials to learn how to code using their programming language. The developers provide a series of tutorials to help users grasp coding concepts. This website contains useful information on how to visualize and generate figures using MATLAB:
+This website contains useful information on how to visualize and generate figures using MATLAB:
 * [MATLAB for Data Processing and Visualization](https://matlabacademy.mathworks.com/details/matlab-for-data-processing-and-visualization/mlvi)
 
 As a member of the Donders Insitute, you can download MATLAB on your office PC free of charge. Simply reach out to the Technical Group (TG) or refer to the institute's intranet [page](https://intranet.donders.ru.nl/index.php?id=computerservices) for assistance. If you prefer to install it on your personal computer, you can obtain an educational license using your university email. The TG can assist you with this process as well.
@@ -141,14 +141,24 @@ As a member of the Donders Insitute, you can download MATLAB on your office PC f
 You can find a large range of tutorials for data visualization using Python online. Here, we will mention resources that have been useful for members of the lab.
 
 The two main visualization libraries in Python are the following:
-* [MatPlotLib](https://matplotlib.org/stable/) - Widely used, user friendly and includes a large range of visualization options. Their website provides tutorials as well as sample code.
-* [SeaBorn](https://seaborn.pydata.org/index.html) - Visualization library based on matplotlib. Elegant and user friendly. Increasingly popular in the Neuro-AI community. Includes sample code and tutorials for different kinds of analyses.
+* [MatPlotLib](https://matplotlib.org/stable/) - Widely used, and includes a large range of visualization options. Their website provides tutorials as well as sample code.
+* [SeaBorn](https://seaborn.pydata.org/index.html) - Visualization library based on matplotlib. Elegant and user friendly. Increasingly popular in the Neuro-AI community. Includes sample code and tutorials for different kinds of plots.
 
-If you do not feel confident to use these skills on your own or simply by looking at the sample code. These tutorials are great to introduce you to these two libraries:
-* [DataCamp](https://app.datacamp.com/learn/courses?technologies=2&topics=4) - It contains a variety of courses on data visualization using Python. Check which one makes most sense for your needs.
-* [CodeAcademy](https://www.codecademy.com/learn/paths/visualize-data-with-python)
+**R Resources**
 
-Important to note is that these two resources are paid. Ask lab members for free access. 
+You can find a wide range of tutorials for data visualization using R. We will mention the most common libraries and direct you to websites that provide tutorials to master their usage.
+
+* [GGPlot2](https://ggplot2.tidyverse.org/) - Library commonly used in the field of statistics to generate diverse plots. User friendly and flexible to generate a wide variety of plots. Their website provides extensive explanations and code examples.
+
+
+If you do not feel confident to use these skills on your own or simply by looking at the sample code. These tutorials are great to introduce you to these Python and R libraries:
+
+* [DataCamp Visualization Tutorials for Python](https://app.datacamp.com/learn/courses?technologies=2&topics=4) -
+* [DataCamp Visualization Tutorials for R](https://app.datacamp.com/learn/skill-tracks/data-visualization-with-r) 
+* [CodeAcademy for Python](https://www.codecademy.com/learn/paths/visualize-data-with-python) 
+
+Important to note is that these two resources are mostly paid (CodeAcademy has some free options). Ask lab members how to get free access. 
+
 
 
 
