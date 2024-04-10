@@ -159,6 +159,30 @@ If you do not feel confident to use these skills on your own or simply by lookin
 
 Important to note is that these two resources are mostly paid (CodeAcademy has some free options). Ask lab members how to get free access. 
 
+### Editing Figures for Manuscripts
+
+Small tweaks might be needed in your code generated figures before they are publication ready. Where do you generate images visualizing your experimental procedure? Here is software that will do the job well for you:
+
+* [**Adobe Illustrator**](https://www.adobe.com/nl/products/illustrator.html) (paid software)
+_How to get it?_ You can have it installed on your office PC (just ask the TG). If you wish to have it on your own computer, check surfspot (https://www.surfspot.nl/). Sign up with your RU account on surfspot, and you’ll be able to get Adobe Creative Cloud service by paying only ~20 euros per year.
+_How to start from scratch?_ There are numerous YouTube tutorials available online. Additionally, keep an eye on the graduate school of the Radboud University as they often offer workshops on generating figures using Illustrator.
+
+* [**Inkscape**](https://inkscape.org/) (free software)
+_How to get it?_ You can have directly download it from their website.
+_How to start from scratch?_ Inkscape developers have provided extensive [tutorials](https://inkscape.org/learn/) for their users.
+
+Remember that journals will have speicific guidelines for figures, you can find examples here:
+* [Nature Neuroscience](https://www.nature.com/neuro/for-authors/preparing-your-submission)
+* [PNAS](https://www.pnas.org/page/authors/submission)
+
+
+### Useful Resources
+Here are a list of resources that might be useful when generating figures:
+* [General Tricks](https://www.sciencemag.org/sites/default/files/Figure_prep_guide.pdf) - article highlighting rules of thumb for designing your manuscripts
+* [Figure Workshop by Anne Urai](https://docs.google.com/presentation/d/10fEmdswbj4zGy01kwoDrOmCLhbA0MqdFu4oynzw473Y/edit#slide=id.p) - slides and video on generating figures for your research articles
+* [Tricks for Prettier Figures for Matlab Users](https://anneurai.net/2016/06/13/prettier-plots-in-matlab/)
+* [Color Maps for Matlab Users](https://nl.mathworks.com/matlabcentral/fileexchange/34087-cbrewer-colorbrewer-schemes-for-matlab)
+* [Color Maps for Python Users](http://colorcet.pyviz.org/)
 
 
 
