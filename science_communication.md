@@ -1,5 +1,5 @@
 ---
 layout: default
-title: Science Communication: Figures, Posters, Talks
+title: Science Communication
 rank: 7
 ---
