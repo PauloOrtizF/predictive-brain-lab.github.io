@@ -9,8 +9,7 @@ The ability to clearly communicate your findings with other researchers and the 
 
 The present section will provide  guidelines or resources you can use to generate figures, posters, give lectures or other forms of scientific communication. 
 
-- [Communicating your Research Findings](#communicating-your-research-findings)
-  - [Creating Figures](#creating-figures) 
+- [Creating Figures](#creating-figures) 
 
 ## Creating Figures
 Eye-catching figures and fonts do not onlu facilitate communication but imrpove the experience of listening to a presentation or reading a paper! Mastering the skill of creating visually appealing figures directly from your code editor (Python, MatLab, R) not only saves you time but also promotes reproducibility in your analyses!
