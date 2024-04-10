@@ -1,5 +1,5 @@
 ---
 layout: default
 title: Technical Help
-rank: 6
+rank: 7
 ---
