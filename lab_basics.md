@@ -5,10 +5,9 @@ rank: 2
 ---
 This section covers common research practices within the lab. For a general introduction to our research group, you might want to look at our lab handbook[INSERT LINK WHEN READY].
 
-- [Standard Operating Procedures (SOP) for Experimental Designs](#standard-operating-procedures-sop-for-experimental-designs)
-  - [Preparing Experimental Designs](#preparing-experimental-design)
-  - [Giving a Project Proposal Meeting (PPM)](#giving-a-project-proposal-meeting-ppm)
-  - [Preregistration](#preregistration)
+- [Preparing Experimental Designs](#preparing-experimental-designs)
+- [Giving a Project Proposal Meeting (PPM)](#giving-a-project-proposal-meeting-ppm)
+- [Preregistration](#preregistration)
 
 # Standard Operating Procedures (SOP)
 The Predictive Brain Lab has adopted standarized procedures for designing experiments and processing data for several years now. The employment of **standard operating procedures (SOP)** has three main advantages over individualized pipelines:
