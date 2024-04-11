@@ -113,7 +113,22 @@ Scientific writing is a skill that requires a lot of practice and reading scient
 * [Some Tips for Writing Science](https://www.eneuro.org/content/9/6/ENEURO.0497-22.2022) - Recent article from a neuroscientist on writing scientific articles
 * [Brad Voytek's Article Template](https://docs.google.com/document/d/1FSnPuniOpfscQxV5z012j4akxmKhzP3r70HvKBtB5FE/edit) - A good rough draft on how to structure your research article
 
-_Remember to keep an eye on courses from the Radboud University graduate school on science communication_
+_Remember to keep an eye on courses from the Radboud University Graduate School on Scientific Communication_
 
+### Journal Article 
+On a more practical note, having a structured approach for certain procedures is invaluable. Here, lab members have compiled a concise list of considerations before submitting an article.
 
+* Remember to get approval by all authors before you submit.
+* Ask other members of the group to provide peer review!
+* Post your article on [Biorxiv](https://www.biorxiv.org/), to make your findings available immediately to the scientific community and potentially receive feedback on your manuscript. It might also be a good idea to share this work on Twitter or Bsky to increase your reach! (Do not forget to tag other authors and Floris! @flodlan)
+* 
+
+• Your article has to be approved by all authors before you submit.
+• Has your article been group peer reviewed already? See http://predictivebrain.wikidot.com/group-peer-review
+• Post your article on Biorxiv (https://www.biorxiv.org/), to make the findings immediately available to the scientific community and potentially receive feedback on the manuscripts (you may want to Tweet about the preprint as well, while you are at it, including @predictivebrain and @flodlan)
+• Consider publishing in an Open Access journal, e.g. eLife, PLOS Biology, Nature Communications, PLOS One, Scientific Reports. For some projects, this is even mandatory so check before you submit.
+• You have to share all the data and code associated with your publication. Include information about your Data Sharing Collection (DSC) that you have uploaded to the Donders Repository (https://data.donders.ru.nl/) in your article. For examples of published articles with associated shared data and code, see our external website: https://www.predictivebrainlab.com/publications/papers/
+• If you have preregistered your study, do not forget to mention this in the article, and provide a link to the preregistration
+
+After publication you write a post about it on our website. Here's how to; http://predictivebrain.wikidot.com/writing-blogs
 
