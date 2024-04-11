@@ -121,7 +121,7 @@ _Remember to keep an eye on courses from the Radboud University Graduate School 
 On a more practical note, having a structured approach for certain procedures is invaluable. Here, lab members have compiled a concise list of considerations before submitting an article.
 
 * Remember to get approval by all authors before you submit.
-* Ask other members of the group to provide peer review!
+* Ask other members of the group to provide peer review! (check [here](./peer_review_guidelines.md) for peer review guidelines for the lab)
 * Post your article on [Biorxiv](https://www.biorxiv.org/), to make your findings available immediately to the scientific community and potentially receive feedback on your manuscript. It might also be a good idea to share this work on Twitter or Bsky to increase your reach! (Do not forget to tag other authors and Floris! @flodlan)
 * Following the lab's values, consider publishing in an Open Access journal (_e.g._, eLife, PLOS Biology, Nature Communications, PLOS One, Scientific Reports). In some cases, it is even mandatory to do so. Remember to check if this is the case for you.
 * You have to share all the data and code associated with your publication. A _tip_ is to use a version control software (_e.g.,_GitHub) that allows you to simply link the your work without having to do anything else. Otherwise, include the information about your Data Sharing Collection (DSC). For more info on this, check the lab handbook[INSERT LINK].
