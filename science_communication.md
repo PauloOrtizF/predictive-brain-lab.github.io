@@ -11,6 +11,7 @@ The present section will provide  guidelines or resources you can use to generat
 
 - [Creating Figures](#creating-figures)
 - [Scientific Poster](#scientific-poster)
+- [Writing Scientific Papers](#writing-scientific-papers)
 
 ## Creating Figures
 Eye-catching figures and fonts do not onlu facilitate communication but imrpove the experience of listening to a presentation or reading a paper! Mastering the skill of creating visually appealing figures directly from your code editor (Python, MatLab, R) not only saves you time but also promotes reproducibility in your analyses!
@@ -92,11 +93,15 @@ Here are some links that you might find useful:
 * [Tips for presenting your scientific poster at a conference](https://www.scientifica.uk.com/neurowire/tips-for-presenting-your-scientific-poster-at-a-conference)
 
 ### Poster Templates
-Commonly used software for creating posters includes Adobe Illustrator, InDesign, PowerPoint, or Inkscape. Choose the one you are most comfortable with. At the DCCN, the default options are typically the Donders [templates](https://intranet.donders.ru.nl/index.php?id=2963). You can download the specific format that suits your needs from the intranet page above. Alternatively, if you have a poster template you have encountered before and want to use, you are more than welcome to do so. All Radboud logos are available for download on this [page](https://www.ru.nl/corporateidentity/basic-elements/logo/) to include them in your poster.
+Commonly used software for creating posters includes Adobe Illustrator, InDesign, PowerPoint, or Inkscape. Choose the one you are most comfortable with. At the DCCN, the default options are typically the Donders [templates](https://intranet.donders.ru.nl/index.php?id=2963). You can download the specific format that suits your needs from the intranet page above. Alternatively, if you have a poster template you have encountered before and want to use, you are more than welcome to do so. All Radboud logos are available for download on this [page](https://www.ru.nl/corporateidentity/basic-elements/logo/) to include them in your poster. 
 
 Here are some examples from lab members:
 
-* Micha Heilbron
-* Marisha Manahova - Familiarity and Expectation
-* Marisha Manahova - Signal Truncation
-* Patricia Romero Verdugo
+* [Micha Heilbron](https://pbs.twimg.com/media/D2XDExMUcAAW3rV.jpg:large)
+* [Marisha Manahova - Familiarity and Expectation](http://predictivebrain.wikidot.com/local--files/communicating-findings/Mariya%20Manahova%20Familiarity%20and%20Expectation)
+* [Patricia Romero Verdugo](http://predictivebrain.wikidot.com/local--files/communicating-findings/Patricia%20Romero%20Verdugo%20-%20Choice%20enhances%20curiosity)
+
+### Printing a Poster
+[INSERT INFORMATION AFTER ASKING ONE OF THE LAB MEMBERS]
+
+## Writing Scientific Papers
