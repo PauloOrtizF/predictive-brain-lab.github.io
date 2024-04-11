@@ -1,9 +1,4 @@
 
----
-layout: default
-title: Peer Review
----
-
 # Peer Review Guidelines
 This page outlines the most important points to focus on when peer reviewing another lab member's work. This is only a rough guideline as the specific structure of the paper will highly depend on the requirements of the journal and the topic of your fellow researcher. 
 
