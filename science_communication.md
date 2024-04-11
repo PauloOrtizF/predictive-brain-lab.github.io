@@ -105,3 +105,15 @@ Here are some examples from lab members:
 [INSERT INFORMATION AFTER ASKING ONE OF THE LAB MEMBERS]
 
 ## Writing Scientific Papers
+The ability to write a clear, concise, and compelling research article is often overlooked as one of the most critical skills to have as a researcher. Regardless of the excellent quality of your work or ideas, as a scientist, it can be challenging to engage others and convince them of your work without the capacity to effectively convey your message. 
+
+Scientific writing is a skill that requires a lot of practice and reading scientific texts. However, the ability to write a clear paper can be hugely improved when specific guides or structures are provided. Here is a list of resources that can help you improve this crucial aspect of scientific communication:
+
+* [Style: Lessons in Clarity and Grace, 12th edition](https://www.pearson.com/en-us/subject-catalog/p/style-lessons-in-clarity-and-grace/P200000008731/9780134080413) - Great book to directly help you improve your writing style
+* [Some Tips for Writing Science](https://www.eneuro.org/content/9/6/ENEURO.0497-22.2022) - Recent article from a neuroscientist on writing scientific articles
+* [Brad Voytek's Article Template](https://docs.google.com/document/d/1FSnPuniOpfscQxV5z012j4akxmKhzP3r70HvKBtB5FE/edit) - A good rough draft on how to structure your research article
+
+_Remember to keep an eye on courses from the Radboud University graduate school on science communication_
+
+
+
