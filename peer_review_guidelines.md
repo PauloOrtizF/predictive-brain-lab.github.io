@@ -1,7 +1,7 @@
 
 ---
 layout: default
-title: Peer Review Guidelines
+title: Peer Review 
 ---
 
 # Peer Review Guidelines
