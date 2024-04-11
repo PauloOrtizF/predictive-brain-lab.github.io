@@ -13,6 +13,7 @@ The present section will provide  guidelines or resources you can use to generat
 - [Scientific Poster](#scientific-poster)
 - [Writing Scientific Papers](#writing-scientific-papers)
 
+
 ## Creating Figures
 Eye-catching figures and fonts do not onlu facilitate communication but imrpove the experience of listening to a presentation or reading a paper! Mastering the skill of creating visually appealing figures directly from your code editor (Python, MatLab, R) not only saves you time but also promotes reproducibility in your analyses!
 
@@ -104,6 +105,7 @@ Here are some examples from lab members:
 ### Printing a Poster
 [INSERT INFORMATION AFTER ASKING ONE OF THE LAB MEMBERS]
 
+
 ## Writing Scientific Papers
 The ability to write a clear, concise, and compelling research article is often overlooked as one of the most critical skills to have as a researcher. Regardless of the excellent quality of your work or ideas, as a scientist, it can be challenging to engage others and convince them of your work without the capacity to effectively convey your message. 
 
@@ -121,14 +123,8 @@ On a more practical note, having a structured approach for certain procedures is
 * Remember to get approval by all authors before you submit.
 * Ask other members of the group to provide peer review!
 * Post your article on [Biorxiv](https://www.biorxiv.org/), to make your findings available immediately to the scientific community and potentially receive feedback on your manuscript. It might also be a good idea to share this work on Twitter or Bsky to increase your reach! (Do not forget to tag other authors and Floris! @flodlan)
-* 
-
-• Your article has to be approved by all authors before you submit.
-• Has your article been group peer reviewed already? See http://predictivebrain.wikidot.com/group-peer-review
-• Post your article on Biorxiv (https://www.biorxiv.org/), to make the findings immediately available to the scientific community and potentially receive feedback on the manuscripts (you may want to Tweet about the preprint as well, while you are at it, including @predictivebrain and @flodlan)
-• Consider publishing in an Open Access journal, e.g. eLife, PLOS Biology, Nature Communications, PLOS One, Scientific Reports. For some projects, this is even mandatory so check before you submit.
-• You have to share all the data and code associated with your publication. Include information about your Data Sharing Collection (DSC) that you have uploaded to the Donders Repository (https://data.donders.ru.nl/) in your article. For examples of published articles with associated shared data and code, see our external website: https://www.predictivebrainlab.com/publications/papers/
-• If you have preregistered your study, do not forget to mention this in the article, and provide a link to the preregistration
-
-After publication you write a post about it on our website. Here's how to; http://predictivebrain.wikidot.com/writing-blogs
+* Following the lab's values, consider publishing in an Open Access journal (_e.g._, eLife, PLOS Biology, Nature Communications, PLOS One, Scientific Reports). In some cases, it is even mandatory to do so. Remember to check if this is the case for you.
+* You have to share all the data and code associated with your publication. A _tip_ is to use a version control software (_e.g.,_GitHub) that allows you to simply link the your work without having to do anything else. Otherwise, include the information about your Data Sharing Collection (DSC). For more info on this, check the lab handbook[INSERT LINK].
+* If you have preregistered your study, do not forget to mention this in the article, and provide a link to the preregistration
+* Ask the website manager to add a post about your publication on the [lab's website](https://www.predictivebrainlab.com/home)
 
