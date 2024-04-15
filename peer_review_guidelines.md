@@ -5,11 +5,13 @@ This page outlines the most important points to focus on when peer reviewing ano
 **Important to keep in mind** is that the goal of the internal peer review process is to assist your lab member in improving their paper, rather than judging or criticizng their work. 
 
 ## Questions Linked to Specific Sections of the Paper
-### Abstract
+### Abstract 
 
 * Is the abstract comprehensive (i.e., addressing context, content, and conclusion)?
 * Is the abstract understandable to an outsider with no knowledge of the field?
 * Is the abstract interesting/stimulating -- an invitation to read the paper?
+
+(see [here](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.nature.com/documents/nature-summary-paragraph.pdf) Nature's recommendations for writing an abstract)
 
 ### Introduction
 
@@ -22,7 +24,7 @@ This page outlines the most important points to focus on when peer reviewing ano
 
 * Logical step from research problem to methodological approach clear?
 * Any steps in the methods difficult to understand – or seem erroneous?
-* Is the design understandable by looking only at the illustration?
+* Is the design understandable by looking only at the illustration (refer them to the [figures](./science_communication.md) section of wiki otherwise)?
 
 ### Results
 
@@ -35,7 +37,7 @@ This page outlines the most important points to focus on when peer reviewing ano
 * Findings adequately summarized and discussed in relation to previous relevant studies?
 * Limitations of the finding(s) well addressed?
 * Is it clear how this study advances our knowledge? ‘Meaning’ of the study clear?
-* Bonus: smart ‘take home message’ extending beyond this specific paper?
+* _Bonus_: smart ‘take home message’ extending beyond this specific paper?
 
 ## General
 ### Writing
@@ -49,6 +51,8 @@ This page outlines the most important points to focus on when peer reviewing ano
 * Figures tell the whole story – without being too dense?
 * Colour-concept mapping intuitive and consistent?
 * Other comments about figures?
+
+If you have a lot of comments for this section, you can nudge your lab mate to the [figures](./science_communication.md) section of this wiki.
 
 ### Interpretation
 
