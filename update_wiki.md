@@ -20,9 +20,12 @@ If you have never used GitHub before, please go to the [Technical Help](./techni
 --- 
 layout: default
 title: where to get tasty lunch around the DCCN?
-rank: 1 -- **_only add this section if you want it to be displayed as one of the options on the wiki's index_**
+rank: 1 
 ---
 ```
+_Note:_ only add the rank section if you want the page to be displayed as one of the options on the wiki's index.
+
+
 6. Add the information you want and then click on the _commit changes_ green button on the top right (this saves the changes you did on your local fork of the repository)
 7. Once you have succesfully applied all the changes you saw fitting, create a **Pull Request** (_ie.,_ a request to add the changes you incorporated to the original wiki repository). Go to the Pull Requests / New / Compare across forks and select your fork. Clearly explain in the box they provide all the things you modified and why you modified them. The person responsible for the wiki will incorporate these edits to the main page.
 
