@@ -52,7 +52,7 @@ This page outlines the most important points to focus on when peer reviewing ano
 * Colour-concept mapping intuitive and consistent?
 * Other comments about figures?
 
-If you have a lot of comments for this section, you can nudge your lab mate to the [figures](./science_communication.md) section of this wiki.
+If you have a lot of comments for this section, you can nudge your lab mate to the [figures](./science_communication.md/#creating-figures) section of this wiki.
 
 ### Interpretation
 
