@@ -42,6 +42,8 @@ For a checklist of a behavioral session, you can use this [template](https://doc
 
 Psychophysics concerns itself with the relationship between physical properties of stimuli and the sensations and perceptions produced by them. In this section, we provide guidance on how to implement psychophysical procedures that might use in your experiments. We will provide code examples as well as literature for you to consult in case of need. 
 
+_**Before starting to code ANY experiment**. Check the compatibility of the software you are planning to use with the Donders Institute computers. The neuroimaging labs do not support all software options_
+
 ## What Do We Use Psychophysics For?
 * To estimate thresholds, just-noticeable differences (JND), point of subjective equality (PSE), etc. for every subject.
 * To map the shape of psychometric curves for every subject
