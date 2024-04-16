@@ -81,4 +81,7 @@ To implement any of the aforementioned procedures you are recommended to use [Ps
 The following list provides resources to learn more about these procedures:
 
 * [The Palamedes Toolbox](https://www.palamedestoolbox.org/) - MATLAB routines for analyzing psychophysical data
-* [Implementing staircase procedures in PsychoPy](https://www.psychopy.org/recipes/interleaveStaircases.html) 
+* [Implementing staircase procedures in PsychoPy](https://www.psychopy.org/recipes/interleaveStaircases.html)
+* [Forced-choice staircases with fixed step sizes: asymptotic and small-sample properties (Garcia-Perez, 1998)](https://www.sciencedirect.com/science/article/pii/S0042698997003404?via%3Dihub#SEC2) - Essential paper for thresholding
+* [Simple adaptive testing with the weighted up-down method (Kaernbach, 1991)](https://psycnet.apa.org/record/1982-02539-001) - More specific resource. Not always applicable (see paper above first for an overview)
+
