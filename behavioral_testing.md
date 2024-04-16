@@ -77,11 +77,11 @@ The two types of staircasing procedures described below have their own pros and 
 
 Following every trial, all collected data is used to fit a psychometric function (PF). This fitted PF is then utilized to determine the stimulus intensity for the next trial. 
 
-[**bestPEST**](https://link.springer.com/article/10.3758/BF03204398)
+**bestPEST** ([see here](https://link.springer.com/article/10.3758/BF03204398))
 
 It assumes a specific form of the psychometric function and estimates only the threshold parameter of the psychometric function.
 
-[**Quest**](https://link.springer.com/article/10.3758/BF03202828)
+**Quest** ([see here](https://link.springer.com/article/10.3758/BF03202828))
 
 It is essentially the Bayesian alternative to _bestPEST_. Note that when the prior is uniform and we use the mode of the posterior distribution as our estimate of the threshold, Quest is equivalent to the bestPEST.
 
