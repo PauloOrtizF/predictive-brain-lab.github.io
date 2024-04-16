@@ -3,124 +3,44 @@ layout: default
 title: Home
 rank: 1
 ---
-I like horses - NOT - NoT again - will it work? does it scroll? let's try again - hope NOT - last hope
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+Welcome to the Predictive Brain Lab Wiki!
 
-[Link to another page](./another-page.html).
+We are based at the [Donders Institue for Brain, Cognition and Behaviour](https://www.ru.nl/en/donders-institute) at [Radboud University](https://www.ru.nl/en) in Nijmegen, Netherlands. This is the lab wiki, which provides information regarding the **technical skills** relevant to perform research as part of our group. 
 
-There should be whitespace between paragraphs.
+This wiki is the result of the efforts of the PI [Floris de Lange](https://www.predictivebrainlab.com/people/floris-de-lange) and [current and previous members of the lab](https://www.predictivebrainlab.com/people). For information regarding our team, research, and publications you can see our [website](https://www.predictivebrainlab.com/). 
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+The current wiki has been inspired by the work of some of our colleagues ([Anne Urai](https://anne-urai.github.io/lab_wiki/Practical.html), [Mariam Aly](https://osf.io/mdh87/wiki/Stimuli/), [Liad Mudrik](https://osf.io/5kfrc/wiki/home/), and [Steve Flemming](https://metacoglab.github.io/lab_wiki/)). Thank you for sharing your resources. 
+This document is a work in progress. If you find important information missing, unclear, or outdated, please notify us or request an update!
 
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+We hope you have a great time during your stay in the lab and that this respository results useful to you!
 
 
-### Definition lists can be used with HTML syntax.
+#### The wiki is divided into the following sections:
+  
 
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
+#### [Lab Basics](./lab_basics.md)
 
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
+If you are new to the lab, or have more general admin questions, this is the place to start. You can find a guide to the lab, guides for more general procedures and some useful links to Donders Institute resources.
 
-```
-The final element.
-```
+* * * 
+#### Standard Operating Procedures
+
+Here you will find the lab's guidelines and pipelines for conducting and analysing [behavioural](./behavioral_testing.md), [fMRI](./fMRI.md) and [M/EEG](./MEG.md) data, as well as some general guidelines for conducting research in the lab.
+
+* * * 
+
+#### [Technical Help](./technical_help.md)
+
+Here you will find some technical guides (e.g. how to use the cluster), as well as links to sample code and useful resources.
+
+* * * 
+
+### Contributing and Maintaining this Wiki
+
+Do you have a question? Did you find outdated information? Do you have a resource you would like to share with the research group?
+
+**See [here](./update_wiki.md) on how to contribute to the wiki!**
+
+
+
