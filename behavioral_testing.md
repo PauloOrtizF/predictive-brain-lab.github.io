@@ -51,7 +51,7 @@ The PsychoPy [website](https://psychopy.org/documentation.html) contains tutoria
 _**Before starting to code ANY experiment**. Check the compatibility of the software you are planning to use with the Donders Institute computers. The neuroimaging laboratories do not support all software options_
 
 #### Other software options
-There are other software options to create your own experiments. These are also popular and you might be familiar with them. Nonetheless, we recommend using of the two above.
+There are other software options to create your own experiments. These are also popular and you might be familiar with them. Nonetheless, we recommend using one of the two above.
 * [Open Sesame](https://osdoc.cogsci.nl/) - A user-friendly interface to create your own psychological experiments
 * [Presentation](https://www.neurobs.com/) - A Windows owned program for stimulus delivery and experiment control for neuroscience
 
