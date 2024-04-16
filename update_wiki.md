@@ -33,7 +33,7 @@ _Note:_ only add the rank section if you want the page to be displayed as one of
 **That is it! You've done it! You see how easy it was?**
 
 
-#### How do I know if my information if worth incorporating to the wiki?
+#### How do I know if my information is worth incorporating to the wiki?
 
 Easy! If you are in doubt, you can always drop a message in the **MatterMost** channel dedicated to the wiki and ask other lab members if they would like to see this information in the wiki.
 
