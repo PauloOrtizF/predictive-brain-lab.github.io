@@ -9,8 +9,9 @@ This page provides a concise summary of guidelines for performing an fMRI experi
 
 - [fMRI Checklist](#fmri-checklist)
 - [fMRI Analysis](#fmri-analysis)
-  - [BIDS Documentation}(#bids-documentation)
-  -  
+  - [BIDS Documentation](#bids-documentation)
+- [Analysis Pipeline](#analysis-pipeline)
+  - [Preprocessing With Fmriprep](#preprocessing-with-fmriprep)
 
 # fMRI Checklist
 
@@ -33,4 +34,9 @@ This is employed to convert the raw (DICOM) data to the BIDS format. BIDScoin is
 
 This [document](./fmri/bids-coin.md) highlights the steps to conver the raw (DICOM) data into the BIDS format.
 
+
+# Analysis Pipeline
+Once you have converted the raw data files to NIFTI using BIDScoin, you can proceed with the data preprocessing steps.
+
+## Preprocessing With Fmriprep
 
