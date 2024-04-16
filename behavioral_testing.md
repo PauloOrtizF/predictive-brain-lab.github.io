@@ -11,6 +11,7 @@ This section provides helpful information on conducting Behavioral Experiments a
 - [Psychophysics](#psychophysics)
   - [What Do We Use Psychophysics For?](#what-do-we-use-psychophysics-for)
   - [What Are Commonly Used Methods?](#what-are-commonly-used-methods)
+  - [Useful Resources](#useful-resources)
 
   
 # Behavioural Labs
@@ -54,6 +55,17 @@ The two types of staircasing procedures described below have their own pros and 
 **How do we decide the N and the M?**
 - Check the desired accuracy level you are aiming for, see _Table 2_ of the [Garcia-Perez (1998) paper](https://www.sciencedirect.com/science/article/pii/S0042698997003404?via%3Dihub#SEC2)
 
+  
+### 2. Running-Fit Methods
+
+Following every trial, all collected data is used to fit a psychometric function (PF). This fitted PF is then utilized to determine the stimulus intensity for the next trial. 
+
+**bestPEST** 
+It assumes a specific form of the psychometric function and estimates only the threshold parameter of the psychometric function.
+
+**Quest**
+It is essentially the Bayesian alternative to _bestPEST_. Note that when the prior is uniform and we use the mode of the posterior distribution as our estimate of the threshold, Quest is equivalent to the bestPEST.
+
 **Practical Tricks**
 The following list describes a series of tricks that can help you improve the final outputs of your staircase procedure:
 
@@ -61,33 +73,12 @@ The following list describes a series of tricks that can help you improve the fi
 * Create plots of every run of your staircase to check for convergence
 * Use minimum two runs of staircases, and only read out from the ones that have converged.
 * Instead of having very long runs of staircases (_e.g.,_ staircase of 90 trials), split them into short staircases (_e.g.,_~45 trials). This results in better output.
-* 
 
+### Useful Resources
 
-Before explaining how to do psychophysics, it is important to note that it is notoriously hard to implement staircases with Presentation (sorry, Presentation users). To do psychophysics, you’re recommended to use PsychToolbox or PsychoPy. The following description is based on PsychToolbox, as it has the most users in our lab.
+To implement any of the aforementioned procedures you are recommended to use [PsychToolbox](http://psychtoolbox.org/) (MATLAB) or [PsychoPy](https://www.psychopy.org/) (Python). _Note_: it is notoriously hard to implement staircases with Presentation. Hence, we recommend using one of the two other software options. 
 
+The following list provides resources to learn more about these procedures:
 
-
-
-1. N-Up-M-down staircase (e.g., 2-Up-1-Down)
-
-1.1. How do we decide the N and the M?
-- Check what accuracy level you’re targeting, see Table 2 of the Garcıa-Pérez (1998) paper.
-
-1.2. Practical tricks?
-- Besides coding up your Up-Down staircases correctly, there are several tricks that would improve the final outputs of the staircase procedure.
-
-Give your subjects enough practice before running your staircases. Fifty trials or more practice trials would be a good start.
-Plot every run of your staircase to check convergence.
-Use at least two runs of staircases, and only read out from the ones that have converged.
-Instead of having long runs of staircases (e.g., staircase of 90 trials), splitting it into short staircases (e.g., staircases of 45 trials) would give you better output.
-2. Running-fit methods: after every trial a psychometric function (PF) is fit to all the data collected so far, the fitted PF then serves to select a stimulus intensity for the upcoming trial.
-
-2.1. bestPEST assumes a specific form of the psychometric function and estimates only the threshold parameter of the psychometric function.
-
-2.2. Quest is essentially a Bayesian version of the bestPEST, note when the prior is uniform and we use the mode of the posterior distribution as our estimate of the threshold, Quest is equivalent to the bestPEST.
-Practical tricks? - The same tricks mentioned above apply here as well.
-
-Useful resources
-The Palamedes toolbox
-Implementing staircase procedures in PsychoPy
+* [The Palamedes Toolbox](https://www.palamedestoolbox.org/) - MATLAB routines for analyzing psychophysical data
+* [Implementing staircase procedures in PsychoPy](https://www.psychopy.org/recipes/interleaveStaircases.html) 
