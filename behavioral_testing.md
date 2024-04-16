@@ -8,6 +8,8 @@ This section provides helpful information on conducting Behavioral Experiments a
 
 
 - [Behavioural Labs](#behavioural-labs)
+
+  
 # Behavioural Labs
 
 The Trigon building of the DCCN has 9 cubicles on the basement (-1) floor that can be employed to conduct behavioral experiments. These cubicles are equipped with:
