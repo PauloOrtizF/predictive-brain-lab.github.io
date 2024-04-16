@@ -4,10 +4,11 @@ title: Behavioral Testing
 rank: 4
 ---
 
-This section provides helpful information on conducting Behavioral Experiments as a member of the Predictive Brain Lab. It includes concise summaries of the procedures outlines in the [intranet website](https://intranet.donders.ru.nl/index.php?id=beh-labs), along with helpful tips and tricks, and references to useful resources for behavioral techniques. 
+This section provides helpful information on conducting Behavioral Experiments as a member of the Predictive Brain Lab. It includes concise summaries of the procedures outlined in the [intranet website](https://intranet.donders.ru.nl/index.php?id=beh-labs), along with helpful tips and tricks, and references to useful resources for behavioral techniques. 
 
 
 - [Behavioural Labs](#behavioural-labs)
+- [Psychophysics](#psychophysics)
 
   
 # Behavioural Labs
@@ -27,13 +28,12 @@ There are two different ways to make bookings:
 * Pilots of Floris de Lange - for piloting procedures
 * Using your personal number - this is only obtained after the project as been presented in a PPM meeting (see [_Lab Basics_](./lab_basics.md) PPM section)
 
+Remember to always turn on the red light for the behavioral testing rooms. Only in this way, other scientists will know you are currently testing. Likewise, if you see the light on, please be as quiet as possible when walking around the area. 
 
-**[ALL OF THE INFORMATION BELOW IS THE INFORMATION FROM THE OLD WIKI]**
+There is a desk space for the experimenter to wait outside of the cubicle area. It is essential to be nearby in case your participant requires assistance.
+
+For a checklist of a behavioral session, you can use this [template](https://docs.google.com/document/d/1ZSTiefJdUuVGoO00uoj6vZxGBkfi-IeamdLvl56VwdY/edit?usp=sharing) and adapt it according to your personal preferences and needs
 
 
+# Psychophysics
 
-When the experiment is going on inside, the red light outside should be turned on. This way others know that the room is in use. Be as quiet as possible in the hallway when lights at one or more of the cubicles is turned on.
-
-Outside of the cubicles there is space for the experimenter to wait, while the experiment is taking place.
-
-For a checklist of a behavioral session see this template and adjust it to your personal preferences.
