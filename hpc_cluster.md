@@ -19,6 +19,9 @@ The system that connects multiple computers together is what we call **the clust
 - [Linux and Bash (Shell) Basics](#linux-and-bash-(shell)-basics)
   - [Linux](#linux)
   - [Bash and Zsh (Shell)](#bash-and-zsh-(shell))
+    - [What is Bash Scripting?](#what-is-bash-scripting-?)
+    - [Transferring Files](#transferring-files)
+- [Using the Cluster](#using-the-cluster)
 
 ## Cluster Access
 
@@ -89,5 +92,77 @@ If you want to get some hands-on practice with Linux systems before using them i
 ### Bash and Zsh (Shell)
 It is not very simple to describe what bash is. However, understanding it thoroughly is not fundamental to be able to use it. In simple terms, bash or zsh are programming languages tightly integrated within the operating system. Bash is both a **command-line interface (CLI)** and a **scripting language**, allowing such repetitive tasks to be done automatically and quickly. With the proper commands, it can repeat tasks with or without some modification as many times as we want.
 
+![Shell](/images/shell_illustration.png)
+
+Your computer is usually organized in the manner shown in the figure. In most cases, you are using an application that directly connects you to the kernel and hardware without having to directly specify what to do (_ie.,_ you interact with the GUI of the app). By using bash or zsh, you tell the kernel directly how you want your data to be processed. While a GUI presents you with choices to select, CLI choices are not automatically presented to you – we must learn commands!
+
+Familiarity with the shell (bash or zsh) is near essential to run a variety of specialized tools and resources including high-performance computing (HPC) systems. Thus, being able to interact with the shell is becoming a necessary skill for (data) science. 
+
+![What_Shell](/images/what_is_shell.png)
+
+In very simple terms: bash says “Give me input from the terminal, I will process that input, tell the kernel what to do, and send output somewhere for you”.
+
+For our specific case as members of the lab, we will give bash commands to run our (MATLAB or Python) scripts and the output will be saved somewhere (specified by us) in our files. 
+
+The [following page](https://hpc.dccn.nl/docs/bash/start.html) from the HPC Wiki contains an introduction, example code, and tutorials on how to use BASH scripting language. 
+
+These are a series of tips to keep in mind to get working commands:
+
+-	Bash treats spaces, tabs, and new lines as white spaces. In this scripting language, a white space separates _words_ in bash. The first word is always a command and the following arguments. 
+
+For instance: `ls -a /path/to/my/favorite/file*txt`
+In this case `ls`(command) [space] `-a`(option) [space] `/path/to/my/favorite/file*txt`
+(operand)
+
+-	Variables are assigned as `variable=value`. Without any spaces. 
+To call for a variable, you must use $variable. 
+
+-	Anything in quotes will be processed as a single word, including spaces. Single quotes remove special meaning from characters inside of them (_i.e.,_ everything between single quotes will be processed as a literal character). Double quotes only escape spaces and single quotes. 
+
+-	Bash is case sensitive. So be careful for any typos!
+
+-	Always check that you are specifying the correct directories for running scripts, using programs, saving output, etc. 
+
+#### What is Bash Scripting?
+Instead of directly typing bash commands to your terminal, you can make use of scripts that include commands to do so. You simply open a text editor and write your commands in there! (either by opening the text editor in the terminal or by using your VNC GUI). See [here](https://hpc.dccn.nl/docs/bash/start.html) for more info on how to use the text editor on the terminal. 
+
+The reason why you would use this is to reduce errors, create analysis pipelines, work faster, etc. Overall, it automatizes processes and makes your work reproducible for you and other researchers. 
+
+To use it you simply set the document as executable ` $ chmod +x myscript.sh ` and run it by simply typing its name on the terminal and hitting enter ` $ /path/to/my/file/myscript.sh ` 
+
+_Note:_ For the system to read a text file as a bash command, you need to start it with `#!/bin/bash ` and use the file extension **.sh**
+
+
+_For Loops and If statements in Bash_
+
+Some of you might be familiar with **For Loops** and **If statements** from other programming languages. In Bash Scripts you can also make use of these functions. 
+
+The reason why these are helpful is because you can make use of them to run multiple scripts, functions, etc. without having to add many lines to them or execute multiple scripts. They also reduce the amount of typing and can avoid small mistakes. 
+
+In bash you can for every item on a list execute a list of commands (this is very useful to remember!)
+
+![for_loop_bash](/images/for_loops_bash.png)
+
+You can look online on how to use for loops, but this illustration should give you a good idea! 
+
+If statements are typically employed in parallel with for loops and help to stop a loop from running once a condition has been met. 
+
+![if_stat_bash](/images/if_stat_bash.png)
+
+Here, we provide a small example of an if statement and useful test operators. For more information, search on the internet. Software carpentry has a series of lessons on how to use shell for scientific computations [here](https://swcarpentry.github.io/shell-novice/).
+
+#### Transferring Files
+To copy large data files between your home computer and the cluster you can use [RSync](https://rsync.samba.org/). It offers a variety of options to control the way you share your information. You can do it very easily using the shell:
+
+```rsync -av sourcefile youruser@localhost:target address```
+
+_We still recommend checking the website to understand better how to do these transfers._ Try to never copy-paste code that you do not understand fully.
+
+Alternative options for RSync are:
+-	[RClone](https://rclone.org/) (Similar to RSync but for cloud-based storage)
+-	[SCP](https://www.ssh.com/academy/ssh/scp) (Secure Copy)
+-	GitHub (Useful to already store scripts and documents for later reference and publication. You can setup [SSH keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh) and easily have remote folders on the server and your personal laptop.)
+
+## Using the Cluster
 
 
