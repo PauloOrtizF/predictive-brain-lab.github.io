@@ -43,24 +43,26 @@ When you are connecting to the cluster, you are not directly accessing the high-
 There are two ways of accessing one of the access nodes: a **command line interface (CLI)** and a **graphical user interface (GUI)**. From the CLI you will use a terminal (shell) to navigate the access nodes and communicate with the HPC. From the GUI you will see a graphic desktop window (running on [LINUX](https://en.wikipedia.org/wiki/Linux) software) on your computer which you can navigate and use the terminal there to send your commands. 
 
 ### Command Line Access (CLI)
-The command line access allows you to connect with one of the access nodes using a terminal interface (i.e., you will be using the **access node** computer only by typing in LINUX commands in the terminal).  From there you can access all of your user data present in the DCCN cluster as well as send your analyses to the HPC. To effectively use the terminal, you will have to learn how to navigate it using certain commands. If you are not familiar with this, check here for resources to learn how to do it .[INSERT LINK TO LINUX BELOW]
+The command line access allows you to connect with one of the access nodes using a terminal interface (i.e., you will be using the **access node** computer only by typing in commands in the terminal).  From there you can access all of your user data present in the DCCN cluster as well as send your analysis to the HPC. 
+
+To effectively use the terminal, you will have to learn how to navigate it using certain commands (using LINUX). If you are not familiar with this, check [here](#linux) for resources to learn how to do it.
 
 #### How to Connect to the CLI?
 
 For **Windows users** see the instructions [here](https://hpc.dccn.nl/docs/cluster_howto/access-internal.html#ssh-login-with-putty).
+
 _Tips and Tricks_
--	You can use any of the mentat00x servers. Connect to anyone you want. 
--	The configuration on the WIKI is exactly how the screen in your computer should look like 
--	When you are logging in with your username and password, you will not see the password being typed. However, it is there, so once you finish simply click enter (this is the same username composed of the three first letters of your name and surname)
+-	You can use any of the `mentat00x` servers. You can connect to whichever you want. 
+-	The configuration on the HPC WIKI is exactly how the screen in your computer should look like 
+-	When you are logging in with your username and password, you will not see the password being typed. However, it is there, so once you finish, simply click enter (this is the DCCN account in which the username is composed of the three first letters of your name and surname)
 
 For **MacBook users**
-The wiki does not contain information on how to do it. For this software, you will not be making use of PUTTY. 
+The wiki does not contain information on how to do it. For this operating system (OS), you will **not** be making use of PUTTY. 
+
 These are the steps:
 -	Open the terminal of your computer (`cmd+spacebar` and type in `terminal`)
 -	In the terminal you will directly type:
 `ssh username@mentat001@.dccn.nl` (e.g., ssh pauort@mentat001.dccn.nl)
-
-
 -	You will be prompted to insert your password (your typing will not be appearing, but it is being typed).
 -	Done! You will see a message that says you have effectively connected to the server on your terminal. 
 
