@@ -83,15 +83,17 @@ _Tips and Tricks_
 -	For MacBook users, you will need to download the Tiger VNC Viewer. You can do that [here](https://tigervnc.org/). Click on the GitHub release page, then on the sourceforge website and download the latest version. 
 
 ## Linux and Bash (Shell) Basics
-Before describing how to use the HPC cluster it is important that you become familiar with using Linux and Bash commands, as this is the language you will be using to send in your work.  If you are familiar with this, feel free to skip it and go to the section: Using the HPC Cluster. [INSERT LINK HERE WHEN IT IS READY]
+Before describing how to use the HPC cluster it is important that you become familiar with Linux and Bash commands, as this is the language you will be using to send in your work.  If you are familiar with both of them, feel free to skip it and go to the section: [Using the HPC Cluster](#using-the-cluster).
 
-_Note_: if you are working from the terminal of a MacBook, this will not be using bash but a similar language called **zsh** (Z shell). Look online at the differences between both. You can still use bash if you use the terminal on the VNC GUI or by changing the language on your Macbook from zsh to bash if you prefer it. 
+_Note_: if you are working from a MacBook terminal, the default language will not be bash but a similar language called **zsh** (Z shell). Look online at the differences between both. You can still use bash if you use the terminal on the VNC GUI or by changing the language on your Macbook from zsh to bash. 
 
-A very fun, easy-to-understand and useful resource to learn Linux, CLI and Bash is this series of [comics by Julia Evans](https://wizardzines.com/comics/). It usually simplifies concepts and help us understand what we are doing when using these tools. 
+A very fun, easy-to-understand and useful resource to learn Linux, CLI and Bash is this series of [comics by Julia Evans](https://wizardzines.com/comics/). It simplifies concepts and helps understand how to use these tools. 
 
-Additionally, a resource to learn shell or lab skills for research computing is [Software Carpentry](https://software-carpentry.org/lessons/). 
-“Cheat Sheet for Linux” [here](https://hpc.dccn.nl/docs/linux/practice/filesystem.html). 
-“Bash Cheat Sheet” [here](https://hpc.dccn.nl/docs/bash/cheatsheet.html#cheat-sheet).
+Additionally, a resource to learn shell or lab skills for research computing is [Software Carpentry](https://software-carpentry.org/lessons/).
+
+These two links provide some concise cheat sheets for Linux and Bash:
+- “Cheat Sheet for Linux” [here](https://hpc.dccn.nl/docs/linux/practice/filesystem.html). 
+- “Bash Cheat Sheet” [here](https://hpc.dccn.nl/docs/bash/cheatsheet.html#cheat-sheet).
 
 ### Linux
 The HPC Wiki website contains very useful information on Linux basics, providing explanations for the different commands as well as code examples. You can see those [here](https://hpc.dccn.nl/docs/linux/practice/filesystem.html).
