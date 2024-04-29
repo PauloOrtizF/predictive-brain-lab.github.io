@@ -120,7 +120,7 @@ The [following page](https://hpc.dccn.nl/docs/bash/start.html) from the HPC Wiki
 These are a series of tips to keep in mind to get working commands:
 
 -	Bash treats spaces, tabs, and new lines as white spaces. In this scripting language, a white space separates _words_ in bash. The first word is always a command and the following arguments.
-For instance: `ls -a /path/to/my/favorite/file*txt`. In this case `ls`(command) [space] `-a`(option) [space] `/path/to/my/favorite/file*txt` (operand)
+  -	For instance: `ls -a /path/to/my/favorite/file*txt`. In this case `ls`(command) [space] `-a`(option) [space] `/path/to/my/favorite/file*txt` (operand)
 
 -	Variables are assigned as `variable=value`. Without any spaces. 
 To call for a variable, you must use `$variable`. 
@@ -132,32 +132,31 @@ To call for a variable, you must use `$variable`.
 -	Always check that you are specifying the correct directories for running scripts, using programs, saving output, etc. 
 
 #### What is Bash Scripting?
-Instead of directly typing bash commands to your terminal, you can make use of scripts that include commands to do so. You simply open a text editor and write your commands in there! (either by opening the text editor in the terminal or by using your VNC GUI). See [here](https://hpc.dccn.nl/docs/bash/start.html) for more info on how to use the text editor on the terminal. 
+Instead of directly typing bash commands one-by-one to your terminal, you can make use of scripts that include all the commands you want in a sequential order. You simply open a text editor and write your commands in there! (either by opening the text editor in the terminal or by using your VNC GUI). See [here](https://hpc.dccn.nl/docs/bash/start.html) for more info on how to use the text editor on the terminal. 
 
 The reason why you would use this is to reduce errors, create analysis pipelines, work faster, etc. Overall, it automatizes processes and makes your work reproducible for you and other researchers. 
 
-To use it you simply set the document as executable ` $ chmod +x myscript.sh ` and run it by simply typing its name on the terminal and hitting enter ` $ /path/to/my/file/myscript.sh ` 
+To use these `.txt` documents as scripts, you simply set the document as executable ` $ chmod +x myscript.sh ` on the terminal and run it by simply typing its name and hitting enter ` $ /path/to/my/file/myscript.sh ` 
 
 _Note:_ For the system to read a text file as a bash command, you need to start it with `#!/bin/bash ` and use the file extension **.sh**
 
-
-_For Loops and If statements in Bash_
+**For Loops and If statements in Bash**
 
 Some of you might be familiar with **For Loops** and **If statements** from other programming languages. In Bash Scripts you can also make use of these functions. 
 
-The reason why these are helpful is because you can make use of them to run multiple scripts, functions, etc. without having to add many lines to them or execute multiple scripts. They also reduce the amount of typing and can avoid small mistakes. 
+The reason why these are helpful is because you can make use of them to run multiple scripts, functions, etc., without having to add many lines or make use of multiple scripts. They also reduce the amount of typing and can avoid small mistakes from happening. 
 
-In bash you can for every item on a list execute a list of commands (this is very useful to remember!)
+**In bash you can execute a list of commands for every item on a list** (this is very useful to remember!)
 
 ![for_loop_bash](/images/for_loops_bash.png)
 
-You can look online on how to use for loops, but this illustration should give you a good idea! 
+You can look online on how to use **For loops**, but this illustration should give you a good idea! 
 
-If statements are typically employed in parallel with for loops and help to stop a loop from running once a condition has been met. 
+**If statements** are typically employed in parallel with for loops and help to stop a loop from running once a condition has been met. 
 
 ![if_stat_bash](/images/if_stat_bash.png)
 
-Here, we provide a small example of an if statement and useful test operators. For more information, search on the internet. Software carpentry has a series of lessons on how to use shell for scientific computations [here](https://swcarpentry.github.io/shell-novice/).
+Here, we provide a small example of an if statement and useful test operators. For more information, search on the internet. [Software carpentry](https://swcarpentry.github.io/shell-novice/) is a useful tool containing a series of lessons on how to use shell for scientific computations.
 
 #### Transferring Files
 To copy large data files between your home computer and the cluster you can use [RSync](https://rsync.samba.org/). It offers a variety of options to control the way you share your information. You can do it very easily using the shell:
