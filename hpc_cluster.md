@@ -193,64 +193,72 @@ To check for the output files after your job has run, you can use:
 ### Job Submission
 
 There are two main ways in which you can send job submissions to the cluster: **batch submissions and interactive submissions.** 
-The main difference is that in **batch submissions** you simply tell the cluster what to do and you can go on with your life until it is done. Using **interactive submissions** means that you can either use the CLI and run your commands directly on the cluster or connect GUIs to the cluster and run software such as MATLAB from there. 
-This is a small cheat sheet on job submissions for the cluster:
+
+The main difference is that in **batch submissions** you simply tell the cluster what to do and you can go on with your life until it is done. Using **interactive submissions** means that you can either use the CLI and run your commands directly on the cluster or connect your VNC GUI to the cluster and run software (_e.g.,_ MATLAB) from there. 
+
+This is a very brief cheat sheet on job submissions for the cluster:
 
 ![job_resource_management](/images/job_submission_management.png)
 
-To get more information on batch submissions you can visit [this page](https://hpc.dccn.nl/docs/cluster_howto/compute_torque.html#batch-job-submission) on the HPC wiki. If you want to have a more hands-on approach, you can access this [link](https://hpc.dccn.nl/docs/cluster_howto/exercise_simple/exercise.html) with a practical exercise for batch submissions.
+To get more information on **batch submissions** you can visit [this page](https://hpc.dccn.nl/docs/cluster_howto/compute_torque.html#batch-job-submission) on the HPC wiki. If you want to have a more hands-on approach, you can access this [link](https://hpc.dccn.nl/docs/cluster_howto/exercise_simple/exercise.html) with a practical exercise for batch submissions.
 
 Interactive job submissions can take two forms:
 1.	**Interactive computation in text mode**
+
 You run a command line in your shell (terminal) and select the interactive option. This will allow you to connect to the HPC cluster and any computation you run in the shell from then onwards will be processed by the cluster.  This can be thought of as connecting the CLI to the HPC. For more information and code examples see [here](https://hpc.dccn.nl/docs/cluster_howto/compute_torque.html#interactive-computation-in-text-mode). 
 
 2.	**Interactive computation in graphic mode**
-Ideally, you would like to run your software such as MATLAB or Python directly using the HPC cluster. In that way, you can do all your regular analyses using a GUI but having the HPC computational resources. This is possible with the interactive computation in graphic mode. The important thing to remember is to be connected to the VNC GUI on your laptop. To see how to do this, open this [page](https://hpc.dccn.nl/docs/cluster_howto/compute_torque.html#interactive-computation-in-graphic-mode).
+
+Ideally, you would like to run your software such as MATLAB or Python directly using the HPC cluster. In that way, you can do all your regular analyses using a GUI but having the HPC computational resources. This is possible with the interactive computation in graphic mode. **The important thing to remember is to be connected to the VNC GUI on your laptop**. To see how to do this, open this [page](https://hpc.dccn.nl/docs/cluster_howto/compute_torque.html#interactive-computation-in-graphic-mode).
 
 In this [page](https://hpc.dccn.nl/docs/cluster_howto/exercise_interactive/exercise.html), you have exercises to practice interactive job submissions. 
 
 [Here](https://hpc.dccn.nl/docs/cluster_howto/compute_torque.html#checking-job-status), you can see instructions on how to see the status of the jobs you have submitted. 
 
 ### Job Resource Requirements
-Every job you submit to the cluster will have to come with resource requirements. In this way, the Torque manager can properly allocate the necessary resources for your job. In order to not run into any problems, you need to make sure that there are sufficient resources specified in your submission. 
+Every job you submit to the cluster will have to come with resource requirements. In this way, the Torque manager can properly allocate the necessary (computing) resources for your job. In order to not run into any problems, you need to make sure that there are sufficient resources specified in your submission. 
 
 You can visit this [page](https://hpc.dccn.nl/docs/cluster_howto/compute_torque.html#specifying-resource-requirement) to get more information on how to specify your resource requirements. 
-_Note_: for some analyses, you might have very specific requirements on properties of the HPC cluster you want to access (e.g., you want to use cuda, gpus, etc.). You can specifu these in your resource requirements when submitting a job. The HPC wiki link above contains more information on the different requirements you can select. 
+
+_Note_: for some analyses, you might have very specific requirements on properties of the HPC cluster you want to access (e.g., you want to use cuda, gpus, etc.). **You can specify these in your resource requirements when submitting a job**. The HPC wiki link above contains more information on the different requirements you can select. 
 
 It might be hard to estimate how many resources you require for a specific job. To make accurate estimations you can:
 -	Ask other more experienced colleagues 
--	Run tests, check the status of your job
+-	Run tests, check the [status of your job](https://hpc.dccn.nl/docs/cluster_howto/compute_torque.html#checking-job-status)
 -	Run an interactive job and check VNC which shows graphical statistics-window of the running job (an estimate of the requirements)
--	check the epilogue message at end of the output file `<job_name>.o<jobID>`
+-	Check the epilogue message at end of the output file `<job_name>.o<jobID>`
 
-For more information, see [here](https://hpc.dccn.nl/docs/cluster_howto/compute_torque.html#estimating-resource-requirement). 
-**Important**: try to not overestimate largely the resources you need. In this way, more people can use the cluster simultaneously.  For an exercise on resource requirements, see [here](https://hpc.dccn.nl/docs/cluster_howto/exercise_resource/exercise.html). 
+For more information on estimating resources, see [here](https://hpc.dccn.nl/docs/cluster_howto/compute_torque.html#estimating-resource-requirement). 
+
+
+**Important**: try to not overestimate largely the resources you need. In this way, more people can use the cluster simultaneously.  For an exercise on resource requirements, see [this page](https://hpc.dccn.nl/docs/cluster_howto/exercise_resource/exercise.html). 
 
 ## Data Analysis Software
 
-To run the different options of software in the cluster, a tool called Environment Modules is used. This allows you to see all the different programs installed in the software as well as their different versions. From there, you can load the one you need and use it accordingly. On this [page](https://hpc.dccn.nl/docs/cluster_howto/software-modules.html), you can find more information on how to check the software and load the one you need. If you want to get a more hands-on approach, check [this set of exercises](https://hpc.dccn.nl/docs/cluster_howto/exercise_env_modules/exercise.html). 
+To run the different options of software in the cluster, a tool called **Environment Modules** is used. This allows you to see all the different programs installed already installed in the cluster as well as their different versions. From there, you can load the one you need and use it accordingly. On this [page](https://hpc.dccn.nl/docs/cluster_howto/software-modules.html), you can find more information on how to check and loaf software in the cluster. If you want to get a more hands-on approach, check [this set of exercises](https://hpc.dccn.nl/docs/cluster_howto/exercise_env_modules/exercise.html) before diving in with your own work. 
 
-Certain applications are widely used and do not require any loading to connect to the cluster. Utility scripts are provided to integrate with job submissions to the Torque cluster. These applications are MATLAB, R and Jupyter Notebooks. For more information on how to use these in this form, see [here](https://hpc.dccn.nl/docs/cluster_howto/software-scripts.html). 
+Certain applications are widely used and do not require any loading to connect to the cluster. **Utility scripts** are provided to integrate with job submissions to the Torque cluster. These applications are MATLAB, R and Jupyter Notebooks. For more information on what these are and how to use them see [here](https://hpc.dccn.nl/docs/cluster_howto/software-scripts.html). 
 
-The HPC Wiki also contains more information on how to effectively use MATLAB, R, and Python (in general) on the cluster. These pages are relevant on how to create environments, use specific versions, and understand the features that have been hand-crafted by the TG to make your analysis pipelines as smooth as possible:
+The HPC Wiki also contains **more information on how to effectively use MATLAB, R, and Python on the cluster**. These pages are relevant on how to create environments, use specific versions, and understand the features that have been hand-crafted by the TG to make your analysis pipelines as smooth as possible:
 -	[MATLAB](https://hpc.dccn.nl/docs/cluster_howto/exercise_matlab/exercise.html)
 -	[R](https://hpc.dccn.nl/docs/cluster_howto/exercise_R/index.html)
 -	[Python](https://hpc.dccn.nl/docs/cluster_howto/exercise_python/exercise.html)
 
 ### Using Integrated Development Environments on the Cluster 
-There are two integrated development environments (IDE) that you can use for coding and have specific ways of connecting them to the cluster. For some cases, this means you might be able to run the program from your laptop by using the integrated terminal in the program to connect to the cluster. 
+There are two [integrated development environments](https://en.wikipedia.org/wiki/Integrated_development_environment) (IDE) that you can use for coding and have specific ways of connecting them to the cluster. For some cases, this means you might be able to run the program from your laptop by using the integrated terminal in the program to connect to the cluster. 
+
 The two options currently available are:
-1.	PyCharm – an IDE for Python project. You can find more information about the IDE and how to use it in the cluster [here](https://hpc.dccn.nl/docs/cluster_howto/ide-pycharm.html). 
+1.	[PyCharm](https://www.jetbrains.com/pycharm/promo/?source=google&medium=cpc&campaign=EMEA_en_NL_PyCharm_Branded&term=pycharm&content=536947779960&gad_source=1&gclid=Cj0KCQjwir2xBhC_ARIsAMTXk87pzxVhYu3tYfZEoAgH9AZW1PFA66677IDr6HewFsqER9U3XWnXC5QaAohZEALw_wcB) – an IDE for Python project. You can find more information about the IDE and how to use it in the cluster [here](https://hpc.dccn.nl/docs/cluster_howto/ide-pycharm.html). 
 Our lab member Maartje Koot created a small tutorial on setting up PyCharm Pro to Run Jupyter Notebooks in the cluster. You can find that [here](/cluster/Notebooks_in_PyCharm_on_Cluster_KOOT.pdf). 
 
-2.	VSCode -- is a cross-platform source-code editor made by Microsoft. It is great for laptops that do not have a lot of memory/RAM as it is very light. [This page](https://hpc.dccn.nl/docs/cluster_howto/ide-vscode.html) contains information on connecting your local VSCode to the cluster server.
+2.	[VSCode](https://code.visualstudio.com/) -- is a cross-platform source-code editor made by Microsoft. It is great for laptops that do not have a lot of memory/RAM as it is a very light app. [This page](https://hpc.dccn.nl/docs/cluster_howto/ide-vscode.html) contains information on connecting your local VSCode to the cluster server.
 The developers of VSCode also have official documentation on how to do this [here](https://code.visualstudio.com/docs/remote/tunneling). 
 
 ## Data Analysis in Parallel 
 
-This section can be thought of as a tips and tricks for a specific situation: you have collected data from **multiple subjects** and you want to perform an **analysis** on each subject’s data independently. Using some of the resources above, especially knowledge of bash, you can run all these analyses in parallel and avoid running each one of them script-by-script. 
+This section can be thought of as a _tips and tricks_ for a specific situation: you have collected data from **multiple subjects** and you want to perform an **analysis** on each subject’s data independently. Using some of the resources above, especially knowledge of bash, you can run all these analyses in parallel and avoid running each one of them script-by-script. 
 
-This [section](https://hpc.dccn.nl/docs/cluster_howto/exercise_da/exercise.html#exercise-da) of the HPC cluster WIKI has a small exercise in Python, R and MATLAB to see how you can do this in each of these software options. 
+This [section](https://hpc.dccn.nl/docs/cluster_howto/exercise_da/exercise.html#exercise-da) of the HPC cluster WIKI has a small exercise in Python, R and MATLAB to see **how you can do this in each of these software options.**
 
 ## Contact
 If you run into any problems, you can contact the [TG help desk](mailto:mailto:helpdesk@fcdonders.ru.nl). They are always available to help with technical questions. 
