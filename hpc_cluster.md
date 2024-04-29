@@ -15,10 +15,10 @@ The system that connects multiple computers together is what we call **the clust
 
 - [Cluster Access](#cluster-access)
   - [Command Line Access (CLI)](#command-line-access-cli)
-  - [Virtual Network Computing (VNC)](#virtual-network-computing-(vnc))
-- [Linux and Bash (Shell) Basics](#linux-and-bash-(shell)-basics)
+  - [Virtual Network Computing (VNC)](#virtual-network-computing-vnc)
+- [Linux and Bash (Shell) Basics](#linux-and-bash-shell-basics)
   - [Linux](#linux)
-  - [Bash and Zsh (Shell)](#bash-and-zsh-(shell))
+  - [Bash and Zsh (Shell)](#bash-and-zsh-shell)
     - [What is Bash Scripting?](#what-is-bash-scripting-?)
     - [Transferring Files](#transferring-files)
 - [Using the Cluster](#using-the-cluster)
