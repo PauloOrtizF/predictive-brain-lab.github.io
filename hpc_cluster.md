@@ -31,16 +31,16 @@ _NOTE_: The DCCN is transitioning on the software used for the cluster, so this 
 
 ## Cluster Access
 
-The system that connects multiple computers together is what we call **the cluster**. You can access it both using any computer in the DCCN building or through your personal laptop. The important thing to remember is to be connected to the DCCN network through your eduVPN account (if you need help to do this, you can [contact the TG](https://intranet.donders.ru.nl/index.php?id=helpdesk)).
+The system that connects multiple computers together is what we call **the cluster**. You can access it using any computer in the DCCN building or through your personal laptop. The important thing to remember is to be connected to the DCCN network through your eduVPN account (if you need help to do this, you can [contact the TG](https://intranet.donders.ru.nl/index.php?id=helpdesk)).
 
-When you are connecting to the cluster, you are not directly accessing the high-performance computers. Instead, you access what is called **access nodes** that allow you to “talk” to the HPC and send in your work. These access nodes can be thought of as external computers that you can access through your laptop (when you perform things in these access nodes, the computer power comes from them and not your laptop. Your laptop becomes some sort of “screen” for them). These **access nodes** are called **mentat001, mentat002, mentat003, mentat004, mentat005, mentat006.**
+When you are connecting to the cluster, you are not directly accessing the high-performance computers. Instead, you access what is called **access nodes** that allow you to “talk” to the HPC and send in your work. These **access nodes** are called **mentat001, mentat002, mentat003, mentat004, mentat005, mentat006.**
 
 **Important**: 
 -	The access nodes are NOT a computer cluster, but they are linked to it. 
 -	You are NOT allowed to run heavy computations on them. 
 -	They have very limited memory/RAM (only 4gb)
 
-There are two ways of accessing one of the cluster nodes: a **command line interface (CLI)** and a **graphical user interface (GUI)**. From the CLI you will use a terminal to navigate the access nodes and communicate with the HPC. From the GUI you will see a graphic LINUX desktop window on your computer which you can navigate and use the terminal there to send your commands. 
+There are two ways of accessing one of the access nodes: a **command line interface (CLI)** and a **graphical user interface (GUI)**. From the CLI you will use a terminal (shell) to navigate the access nodes and communicate with the HPC. From the GUI you will see a graphic desktop window (running on [LINUX](https://en.wikipedia.org/wiki/Linux) software) on your computer which you can navigate and use the terminal there to send your commands. 
 
 ### Command Line Access (CLI)
 The command line access allows you to connect with one of the access nodes using a terminal interface (i.e., you will be using the **access node** computer only by typing in LINUX commands in the terminal).  From there you can access all of your user data present in the DCCN cluster as well as send your analyses to the HPC. To effectively use the terminal, you will have to learn how to navigate it using certain commands. If you are not familiar with this, check here for resources to learn how to do it .[INSERT LINK TO LINUX BELOW]
