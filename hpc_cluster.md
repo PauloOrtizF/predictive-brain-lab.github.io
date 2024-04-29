@@ -14,7 +14,7 @@ _NOTE_: The DCCN is transitioning on the software used for the cluster, so this 
 The system that connects multiple computers together is what we call **the cluster**. Importantly, the operating system that is used to connect these computers is [LINUX](https://en.wikipedia.org/wiki/Linux). Hence, to make use of this high-performance computer you will have to become familiarized with it. 
 
 - [Cluster Access](#cluster-access)
-  - [Command Line Access (CLI)](#command-line-access-(cli))
+  - [Command Line Access (CLI)](#command-line-access-cli)
   - [Virtual Network Computing (VNC)](#virtual-network-computing-(vnc))
 - [Linux and Bash (Shell) Basics](#linux-and-bash-(shell)-basics)
   - [Linux](#linux)
