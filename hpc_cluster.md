@@ -170,22 +170,25 @@ Alternative options for RSync are:
 -	GitHub (Useful to already store scripts and documents for later reference and publication. You can setup [SSH keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh) and easily have remote folders on the server and your personal laptop.)
 
 ## Using the Cluster
-The compute nodes at the HPC are currently managed by the Torque resource manager. Instead of allowing users to log in to one high-performance computer and run computations freely, user **submit** their computations in the forms of **jobs** to the Torque cluster. Here, the Torque will create a schedule and submit the work according to a series of considerations (you will have to set resource requirements and based on this the jobs will be arranged in job queues). Practically, having the Torque resource manager means that certain commands, specific to Torque, in your CLI or the terminal of the VNC GUI will allow you to submit jobs.
+The compute nodes at the HPC are currently managed by the **Torque resource manager**. Instead of allowing users to log in to the high-performance computer and run computations freely, users **submit** their computations in the forms of **jobs** to the Torque cluster. Here, the Torque will create a schedule and submit the work according to a series of considerations (you will have to set resource requirements and based on this the jobs (_i.e.,_computations you want to perform) will be arranged in **job queues**). 
 
-**Important Information.
-The DCCN is changing from Torque manager to SLURM. This means the commands to connect to the cluster will be shortly changing. If you are new and wish to only learn SLURM you can see the HPC WIKI page for it [here](https://hpc.dccn.nl/docs/cluster_howto/compute_slurm.html). We do not recommend only using SLURM as it is still in the testing phase. Why is the change happening? Slurm is open source, allows for better error handling and is the new leader in HPC computing.** 
+From a practical point of view, using the **Torque resource manager** means that you will have to learn specific commands in your CLI or the terminal of the VNC GUI to submit your work to the HPC.
+
+**Important Information.**
+
+_**The DCCN is changing from Torque manager to SLURM**. This means **the commands** to connect to the cluster **will be shortly changing**. If you are new and wish to only learn SLURM you can see the HPC WIKI page for it [here](https://hpc.dccn.nl/docs/cluster_howto/compute_slurm.html). **We do NOT recommend only using SLURM as it is still in the testing phase**. **Why is the change happening?** Slurm is open source, allows for better error handling and is the new leader in HPC computing._
 
 To get more information on the [job prioritization](https://hpc.dccn.nl/docs/cluster_howto/compute_torque.html#resource-sharing-and-job-prioritisation) and [job resource management flow](https://hpc.dccn.nl/docs/cluster_howto/compute_torque.html#job-management-workflow), you can see the highlighted pages on the HPC Wiki.
 
 
-There are three key functions for the job management workflow:
+There are three key functions for the **job management** workflow:
 1.	`$ qsub ` - this is to submit a job to the cluster 
-2.	` $ qstat ` - this is to monitor the job status on the cluster
-3.	 `$ qdel ` - this is to delete a job from the cluster
+2.	`$ qstat ` - this is to monitor the job status on the cluster
+3.	`$ qdel ` - this is to delete a job from the cluster
 
 To check for the output files after your job has run, you can use:
--	` $PWD/STDIN.o<JOBID>` - to see the output
--	` $PWD/STDIN.e<JOBID> ` - to see any errors
+-	` $PWD/STDIN.o<JOBID>` - to see the output of your job
+-	` $PWD/STDIN.e<JOBID> ` - to see any errors that might have occured when running your job
 
 ### Job Submission
 
