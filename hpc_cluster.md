@@ -7,11 +7,11 @@ Nonetheless, we will list resources that will be helpful when trying to work wit
 -	[Intranet HPC](https://intranet.donders.ru.nl/index.php?id=hpc) – this contains information relevant to the HPC at the DCCN
 -	[Recordings of the HPC Tutorials Given by the TG](https://hpc.dccn.nl/docs/tutorials/index.html) – if you do not feel confident in doing things by simply reading documents. The TG organizes every six months interactive tutorials on how to use the cluster. If you do not want to wait, the link provided contains recordings from previous years. _Note_: to access the link you need to be on a DCCN network. Also, some of the information there might be outdated.
 
-Most of the time, scientific computations require the usage of a lot of data and computer power. A major goal for any scientist is to be able to carry out these processes as fast as possible. The way this can be achieved is by parallel computations, using multiple computers at the same time to work on your data. The DCCN has a High-Performance Cluster (HPC) which allows any employee to do exactly this. This wiki page is dedicated to providing you with information about the cluster and how to use it effectively. 
+Most of the time, scientific computations require the usage of a lot of data and computing power. A major goal for any scientist is to be able to carry out these processes as fast as possible. A way this can be achieved is through parallel computations, using multiple computers at the same time to work on your data. The DCCN has a High-Performance Cluster (HPC) which allows researchers to do exactly this. **This wiki page is dedicated to providing you with information about the cluster and how to use it effectively.** 
 
-_NOTE_: The DCCN is transitioning on the software used for the cluster, so this page will contain information on both the current way of using it and the future software manager. 
+_NOTE_: The DCCN is transitioning on the software used for the cluster, so this page will contain information on both the current way of using it (Torque) and the future software manager (SLURM). 
 
-The system that connects multiple computers together is what we call **the cluster**. Importantly, the operating system that is used to connect these computers is [LINUX](https://en.wikipedia.org/wiki/Linux). Hence, to make use of this high-performance computer you will have to become familiarized with it. 
+**Table of Contents**
 
 - [Cluster Access](#cluster-access)
   - [Command Line Access (CLI)](#command-line-access-cli)
@@ -31,7 +31,7 @@ The system that connects multiple computers together is what we call **the clust
 
 ## Cluster Access
 
-You can access the cluster both on any computer in the DCCN building or through your personal laptop. The important thing to remember is to be connected to the DCCN network through your eduVPN account (if you need help to do this, you can [contact the TG](https://intranet.donders.ru.nl/index.php?id=helpdesk)).
+The system that connects multiple computers together is what we call **the cluster**. You can access it both using any computer in the DCCN building or through your personal laptop. The important thing to remember is to be connected to the DCCN network through your eduVPN account (if you need help to do this, you can [contact the TG](https://intranet.donders.ru.nl/index.php?id=helpdesk)).
 
 When you are connecting to the cluster, you are not directly accessing the high-performance computers. Instead, you access what is called **access nodes** that allow you to “talk” to the HPC and send in your work. These access nodes can be thought of as external computers that you can access through your laptop (when you perform things in these access nodes, the computer power comes from them and not your laptop. Your laptop becomes some sort of “screen” for them). These **access nodes** are called **mentat001, mentat002, mentat003, mentat004, mentat005, mentat006.**
 
