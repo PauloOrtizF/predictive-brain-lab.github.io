@@ -101,17 +101,17 @@ The HPC Wiki website contains very useful information on Linux basics, providing
 If you want to get some hands-on practice with Linux systems before using them in your work. The HPC wiki also contains a series of tutorials to get you familiar with the environment. You can see those [here](https://hpc.dccn.nl/docs/linux/practice/exercise_fs.html). 
 
 ### Bash and Zsh (Shell)
-It is not very simple to describe what bash is. However, understanding it thoroughly is not fundamental to be able to use it. In simple terms, bash or zsh are programming languages tightly integrated within the operating system. Bash is both a **command-line interface (CLI)** and a **scripting language**, allowing such repetitive tasks to be done automatically and quickly. With the proper commands, it can repeat tasks with or without some modification as many times as we want.
+It is not very simple to describe what bash is. However, understanding it thoroughly is not fundamental to be able to use it. In simple terms, bash or zsh are programming languages tightly integrated within the operating system (OS). Bash is both a **command-line interface (CLI)** and a **scripting language**, allowing repetitive tasks to be done automatically and quickly. With the proper commands, it can repeat tasks with or without some modification as many times as we want.
 
 ![Shell](/images/shell_illustration.png)
 
-Your computer is usually organized in the manner shown in the figure. In most cases, you are using an application that directly connects you to the kernel and hardware without having to directly specify what to do (_ie.,_ you interact with the GUI of the app). By using bash or zsh, you tell the kernel directly how you want your data to be processed. While a GUI presents you with choices to select, CLI choices are not automatically presented to you – we must learn commands!
+Your computer is usually organized in the manner shown in the figure above. Most of the time, users interact with applications (_e.g.,_ MATLAB) that directly connects them to the kernel and hardware without having to directly specify what to do (_ie.,_ you interact with the GUI of the app). **By using bash or zsh, you tell the kernel directly how you want your data to be processed**. While a GUI presents you with choices to select, CLI choices are not automatically presented to you – **we must learn commands!**
 
 Familiarity with the shell (bash or zsh) is near essential to run a variety of specialized tools and resources including high-performance computing (HPC) systems. Thus, being able to interact with the shell is becoming a necessary skill for (data) science. 
 
 ![What_Shell](/images/what_is_shell.png)
 
-In very simple terms: bash says “Give me input from the terminal, I will process that input, tell the kernel what to do, and send output somewhere for you”.
+In very simple terms: bash says _“Give me input from the terminal, I will process that input, tell the kernel what to do, and send output somewhere for you”._
 
 For our specific case as members of the lab, we will give bash commands to run our (MATLAB or Python) scripts and the output will be saved somewhere (specified by us) in our files. 
 
@@ -119,14 +119,10 @@ The [following page](https://hpc.dccn.nl/docs/bash/start.html) from the HPC Wiki
 
 These are a series of tips to keep in mind to get working commands:
 
--	Bash treats spaces, tabs, and new lines as white spaces. In this scripting language, a white space separates _words_ in bash. The first word is always a command and the following arguments. 
-
-For instance: `ls -a /path/to/my/favorite/file*txt`
-In this case `ls`(command) [space] `-a`(option) [space] `/path/to/my/favorite/file*txt`
-(operand)
+-	Bash treats spaces, tabs, and new lines as white spaces. In this scripting language, a white space separates _words_ in bash. The first word is always a command and the following arguments. For instance: `ls -a /path/to/my/favorite/file*txt`. In this case `ls`(command) [space] `-a`(option) [space] `/path/to/my/favorite/file*txt` (operand)
 
 -	Variables are assigned as `variable=value`. Without any spaces. 
-To call for a variable, you must use $variable. 
+To call for a variable, you must use `$variable`. 
 
 -	Anything in quotes will be processed as a single word, including spaces. Single quotes remove special meaning from characters inside of them (_i.e.,_ everything between single quotes will be processed as a literal character). Double quotes only escape spaces and single quotes. 
 
