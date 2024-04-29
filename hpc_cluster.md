@@ -159,11 +159,11 @@ You can look online on how to use **For loops**, but this illustration should gi
 Here, we provide a small example of an if statement and useful test operators. For more information, search on the internet. [Software carpentry](https://swcarpentry.github.io/shell-novice/) is a useful tool containing a series of lessons on how to use shell for scientific computations.
 
 #### Transferring Files
-To copy large data files between your home computer and the cluster you can use [RSync](https://rsync.samba.org/). It offers a variety of options to control the way you share your information. You can do it very easily using the shell:
+To copy large data files between your home computer and the cluster you can use [RSync](https://rsync.samba.org/). It offers a variety of options to control the way you share your information. You can do it very easily using the terminal (shell):
 
 ```rsync -av sourcefile youruser@localhost:target address```
 
-_We still recommend checking the website to understand better how to do these transfers._ Try to never copy-paste code that you do not understand fully.
+_We still recommend checking the website to understand better how to do these transfers._ Never copy-paste code that you do not understand fully.
 
 Alternative options for RSync are:
 -	[RClone](https://rclone.org/) (Similar to RSync but for cloud-based storage)
