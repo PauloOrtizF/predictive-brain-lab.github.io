@@ -19,7 +19,7 @@ The system that connects multiple computers together is what we call **the clust
 - [Linux and Bash (Shell) Basics](#linux-and-bash-shell-basics)
   - [Linux](#linux)
   - [Bash and Zsh (Shell)](#bash-and-zsh-shell)
-    - [What is Bash Scripting?](#what-is-bash-scripting-?)
+    - [What is Bash Scripting?](#what-is-bash-scripting)
     - [Transferring Files](#transferring-files)
 - [Using the Cluster](#using-the-cluster)
   - [Job Submission](#job-submission)
