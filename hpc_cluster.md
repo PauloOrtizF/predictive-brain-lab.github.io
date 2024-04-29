@@ -119,8 +119,7 @@ The [following page](https://hpc.dccn.nl/docs/bash/start.html) from the HPC Wiki
 
 These are a series of tips to keep in mind to get working commands:
 
--	Bash treats spaces, tabs, and new lines as white spaces. In this scripting language, a white space separates _words_ in bash. The first word is always a command and the following arguments.
-  -	For instance: `ls -a /path/to/my/favorite/file*txt`. In this case `ls`(command) [space] `-a`(option) [space] `/path/to/my/favorite/file*txt` (operand)
+-	Bash treats spaces, tabs, and new lines as white spaces. In this scripting language, a white space separates _words_ in bash. The first word is always a command and the following arguments. For instance: `ls -a /path/to/my/favorite/file*txt`. In this case `ls`(command) [space] `-a`(option) [space] `/path/to/my/favorite/file*txt` (operand)
 
 -	Variables are assigned as `variable=value`. Without any spaces. 
 To call for a variable, you must use `$variable`. 
