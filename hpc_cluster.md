@@ -36,8 +36,8 @@ The system that connects multiple computers together is what we call **the clust
 When you are connecting to the cluster, you are not directly accessing the high-performance computers. Instead, you access what is called **access nodes** that allow you to “talk” to the HPC and send in your work. These **access nodes** are called **mentat001, mentat002, mentat003, mentat004, mentat005, mentat006.**
 
 **Important**: 
--	The access nodes are NOT a computer cluster, but they are linked to it. 
--	You are NOT allowed to run heavy computations on them. 
+-	The access nodes are **NOT** a computer cluster, but they are linked to it. 
+-	You are **NOT** allowed to run heavy computations on them. 
 -	They have very limited memory/RAM (only 4gb)
 
 There are two ways of accessing one of the access nodes: a **command line interface (CLI)** and a **graphical user interface (GUI)**. From the CLI you will use a terminal (shell) to navigate the access nodes and communicate with the HPC. From the GUI you will see a graphic desktop window (running on [LINUX](https://en.wikipedia.org/wiki/Linux) software) on your computer which you can navigate and use the terminal there to send your commands. 
@@ -52,7 +52,7 @@ To effectively use the terminal, you will have to learn how to navigate it using
 For **Windows users** see the instructions [here](https://hpc.dccn.nl/docs/cluster_howto/access-internal.html#ssh-login-with-putty).
 
 _Tips and Tricks_
--	You can use any of the `mentat00x` servers. You can connect to whichever you want. 
+-	You can use any of the `mentat00x` servers. There is not a rationale for picking one over another.
 -	The configuration on the HPC WIKI is exactly how the screen in your computer should look like 
 -	When you are logging in with your username and password, you will not see the password being typed. However, it is there, so once you finish, simply click enter (this is the DCCN account in which the username is composed of the three first letters of your name and surname)
 
@@ -63,16 +63,16 @@ The HPC wiki does not contain information on how to do it. For this operating sy
 These are the steps:
 -	Open the terminal of your computer (`cmd+spacebar` and type in `terminal`)
 -	In the terminal you will directly type:
-`ssh username@mentat00x@.dccn.nl` (e.g., ssh pauort@mentat003.dccn.nl)
+`ssh username@mentat00x.dccn.nl` (e.g., ssh pauort@mentat003.dccn.nl)
 -	You will be prompted to insert your password (your typing will not be appearing, but it is being typed).
 -	Done! You will see a message that says you have effectively connected to the server on your terminal. 
 
 ### Virtual Network Computing (VNC)
 The VNC allows you to connect with one of the **access nodes** using a graphical user interface (GUI). This means you will see a desktop window pop-up that allows you to use the access node as if it were your own desktop (e.g., run apps, open folders, etc.). Within that LINUX desktop, you can open a terminal and use it to communicate with the HPC. 
 
-The general two stages to set up the VNC are the following:
+The **general two stages to set up the VNC** are the following:
 1.	Start the VNCserver (in the remote system (_i.e.,_ access node))
-2.	Use a VNCviewer client (on your personal desktop) to connect (to a remote) VNCserver
+2.	Use a VNCviewer client (on your personal desktop) to connect to a (remote) VNCserver
 
 The step-by-step to connect to the VNC for both Windows and MacBook users are essentially identical. You can find the detailed steps with illustrations on this [page](https://hpc.dccn.nl/docs/cluster_howto/access-internal.html#vnc-for-graphic-desktop). 
 
@@ -135,13 +135,13 @@ Instead of directly typing bash commands one-by-one to your terminal, you can ma
 
 The reason why you would use this is to reduce errors, create analysis pipelines, work faster, etc. Overall, it automatizes processes and makes your work reproducible for you and other researchers. 
 
-To use these `.txt` documents as scripts, you simply set the document as executable ` $ chmod +x myscript.sh ` on the terminal and run it by simply typing its name and hitting enter ` $ /path/to/my/file/myscript.sh ` 
+To use these `.txt` documents as scripts, you simply set the document as executable `$ chmod +x myscript.sh ` on the terminal and run it by simply typing its name and hitting enter `$ /path/to/my/file/myscript.sh ` 
 
-_Note:_ For the system to read a text file as a bash command, you need to start it with `#!/bin/bash ` and use the file extension **.sh**
+_Note:_ For the system to read a text file as a bash command, you need to start it with `#!/bin/bash ` and use the file extension `.sh `
 
 **For Loops and If statements in Bash**
 
-Some of you might be familiar with **For Loops** and **If statements** from other programming languages. In Bash Scripts you can also make use of these functions. 
+Some of you might be familiar with **For Loops** and **If statements** from other programming languages. In Bash scripts you can also make use of these functions. 
 
 The reason why these are helpful is because you can make use of them to run multiple scripts, functions, etc., without having to add many lines or make use of multiple scripts. They also reduce the amount of typing and can avoid small mistakes from happening. 
 
@@ -174,9 +174,7 @@ The compute nodes at the HPC are currently managed by the **Torque resource mana
 
 From a practical point of view, using the **Torque resource manager** means that you will have to learn specific commands in your CLI or the terminal of the VNC GUI to submit your work to the HPC.
 
-**Important Information.**
-
-_**The DCCN is changing from Torque manager to SLURM**. This means **the commands** to connect to the cluster **will be shortly changing**. If you are new and wish to only learn SLURM you can see the HPC WIKI page for it [here](https://hpc.dccn.nl/docs/cluster_howto/compute_slurm.html). **We do NOT recommend only using SLURM as it is still in the testing phase**. **Why is the change happening?** Slurm is open source, allows for better error handling and is the new leader in HPC computing._
+**Important Information:** _The DCCN is changing from Torque manager to SLURM**. This means the commands to connect to the cluster will be shortly changing. If you are new and wish to only learn SLURM you can see the HPC WIKI page for it [here](https://hpc.dccn.nl/docs/cluster_howto/compute_slurm.html). **We do NOT recommend only using SLURM as it is still in the testing phase**. **Why is the change happening?** Slurm is open source, allows for better error handling and is the new leader in HPC computing._
 
 To get more information on the [job prioritization](https://hpc.dccn.nl/docs/cluster_howto/compute_torque.html#resource-sharing-and-job-prioritisation) and [job resource management flow](https://hpc.dccn.nl/docs/cluster_howto/compute_torque.html#job-management-workflow), you can see the highlighted pages on the HPC Wiki.
 
@@ -203,11 +201,11 @@ This is a very brief cheat sheet on job submissions for the cluster:
 To get more information on **batch submissions** you can visit [this page](https://hpc.dccn.nl/docs/cluster_howto/compute_torque.html#batch-job-submission) on the HPC wiki. If you want to have a more hands-on approach, you can access this [link](https://hpc.dccn.nl/docs/cluster_howto/exercise_simple/exercise.html) with a practical exercise for batch submissions.
 
 Interactive job submissions can take two forms:
-1.	**Interactive computation in text mode**
+*	**Interactive computation in text mode**
 
 You run a command line in your shell (terminal) and select the interactive option. This will allow you to connect to the HPC cluster and any computation you run in the shell from then onwards will be processed by the cluster.  This can be thought of as connecting the CLI to the HPC. For more information and code examples see [here](https://hpc.dccn.nl/docs/cluster_howto/compute_torque.html#interactive-computation-in-text-mode). 
 
-2.	**Interactive computation in graphic mode**
+*	**Interactive computation in graphic mode**
 
 Ideally, you would like to run your software such as MATLAB or Python directly using the HPC cluster. In that way, you can do all your regular analyses using a GUI but having the HPC computational resources. This is possible with the interactive computation in graphic mode. **The important thing to remember is to be connected to the VNC GUI on your laptop**. To see how to do this, open this [page](https://hpc.dccn.nl/docs/cluster_howto/compute_torque.html#interactive-computation-in-graphic-mode).
 
@@ -235,7 +233,7 @@ For more information on estimating resources, see [here](https://hpc.dccn.nl/doc
 
 ## Data Analysis Software
 
-To run the different options of software in the cluster, a tool called **Environment Modules** is used. This allows you to see all the different programs installed already installed in the cluster as well as their different versions. From there, you can load the one you need and use it accordingly. On this [page](https://hpc.dccn.nl/docs/cluster_howto/software-modules.html), you can find more information on how to check and loaf software in the cluster. If you want to get a more hands-on approach, check [this set of exercises](https://hpc.dccn.nl/docs/cluster_howto/exercise_env_modules/exercise.html) before diving in with your own work. 
+To run the different options of software in the cluster, a tool called **Environment Modules** is used. This allows you to see all the different programs installed already installed in the cluster as well as their different versions. From there, you can load the one you need and use it accordingly. On this [page](https://hpc.dccn.nl/docs/cluster_howto/software-modules.html), you can find more information on how to check and load software in the cluster. If you want to get a more hands-on approach, check [this set of exercises](https://hpc.dccn.nl/docs/cluster_howto/exercise_env_modules/exercise.html) before diving in with your own work. 
 
 Certain applications are widely used and do not require any loading to connect to the cluster. **Utility scripts** are provided to integrate with job submissions to the Torque cluster. These applications are MATLAB, R and Jupyter Notebooks. For more information on what these are and how to use them see [here](https://hpc.dccn.nl/docs/cluster_howto/software-scripts.html). 
 
@@ -245,7 +243,7 @@ The HPC Wiki also contains **more information on how to effectively use MATLAB, 
 -	[Python](https://hpc.dccn.nl/docs/cluster_howto/exercise_python/exercise.html)
 
 ### Using Integrated Development Environments on the Cluster 
-There are two [integrated development environments](https://en.wikipedia.org/wiki/Integrated_development_environment) (IDE) that you can use for coding and have specific ways of connecting them to the cluster. For some cases, this means you might be able to run the program from your laptop by using the integrated terminal in the program to connect to the cluster. 
+There are two [integrated development environments](https://en.wikipedia.org/wiki/Integrated_development_environment) (IDE) that you can use for coding and have specific ways of connecting them to the cluster. For some cases, this means you might be able to run the program from your laptop by using the integrated terminal in the app to connect to the cluster. 
 
 The two options currently available are:
 1.	[PyCharm](https://www.jetbrains.com/pycharm/promo/?source=google&medium=cpc&campaign=EMEA_en_NL_PyCharm_Branded&term=pycharm&content=536947779960&gad_source=1&gclid=Cj0KCQjwir2xBhC_ARIsAMTXk87pzxVhYu3tYfZEoAgH9AZW1PFA66677IDr6HewFsqER9U3XWnXC5QaAohZEALw_wcB) – an IDE for Python project. You can find more information about the IDE and how to use it in the cluster [here](https://hpc.dccn.nl/docs/cluster_howto/ide-pycharm.html). 
