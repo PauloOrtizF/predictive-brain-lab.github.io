@@ -3,6 +3,8 @@ layout: default
 title: Lab Retreat
 ---
 
+# Lab Retreat
+
 A lab retreat is an opportunity for old and new lab members to get to know each other better and formulate scientific goals as a group. The retreats organized at the Predictive Brain Lab are usually a mixture of social and intellectual activities planned by other lab members. Here, we provide some tips and tricks on how to organize one as well as some more technical information (_e.g.,_ scheduling, budget, etc.) that might be helpful to plan the next one. 
 
 ## Tips & Tricks 
