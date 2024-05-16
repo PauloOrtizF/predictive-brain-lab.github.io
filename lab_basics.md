@@ -123,3 +123,5 @@ To see who is currently responsible for each role, click [here](https://docs.goo
 * [Chairing the AI Club](/int-service-roles/ai-chair.md)
 * [Organizing the Lab Retreat](/int-service-roles/lab-retreat.md)
 * [Yearly Lab Evaluation](/int-service-roles/lab_eval.md)
+* [Joint Lab Meetings](/int-service-roles/joint-lab-meet.md)
+* 
