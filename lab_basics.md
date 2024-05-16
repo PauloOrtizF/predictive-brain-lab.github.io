@@ -121,4 +121,4 @@ As part of the Predictive Brain Lab, various roles need to be fulfilled to ensur
 To see who is currently responsible for each role, click [here](https://docs.google.com/spreadsheets/d/1W09KvN9FVWWYBkcqGhwcD5iK2kIDYqtECI7Z_KV7foc/edit#gid=0). Some of these roles will involve more effort, so multiple researchers will be assigned to them.
 
 * [Chairing the AI Club](/int-service-roles/ai-chair.md)
-* 
+* [Organizing the Lab Retreat](/int-service-roles/lab-retreat.md)
