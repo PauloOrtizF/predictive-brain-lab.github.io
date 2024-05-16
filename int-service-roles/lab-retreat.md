@@ -23,7 +23,7 @@ Do **not** make the time schedule as full as the one you see in this example fro
 
 * [Schedule 2024](https://docs.google.com/spreadsheets/d/1gS0kouhGomiHJPVe9WaZ6hzc8eX1iS4q/edit#gid=1247763362)
 * [Schedule 2022](https://docs.google.com/spreadsheets/d/1gS0kouhGomiHJPVe9WaZ6hzc8eX1iS4q/edit#gid=1288972896)
-* [Science Activities 2024 in Detail]
+* [Science Activities 2024 in Detail](/int-service-roles/lab-ret-docs/Retreat_2024_science_activities.pdf)
 
 #### Budget: 
 The costs of the lab retreat are covered by Floris. Discuss the budget with him. Budget depends on many factors (lab size etc.) and everything budget-related needs to be discussed with and agreed on by Floris. 
@@ -37,8 +37,9 @@ Make a questionnaire to inquire about dietary restrictions, yes/no to alcohol, r
 It is helpful to make a MatterMost channel for the committee to provide information to the lab and for the lab members to ask questions share. Furthermore, it helps to share and information letter with the lab with all the relevant information (e.g., two weeks before the retreat, include a packing list, important times and locations etc.), see the 2024 example. 
 Consider making a backup plan for outdoor activities in case of bad weather.
 
-* [Information Letter]
+* [Information Letter](/int-service-roles/lab-ret-docs/Info_letter_Retreat_Rovereto_2024.pdf)
 
 The lab retreat is a good moment for a group picture (like the one below!). 
+
 
 
