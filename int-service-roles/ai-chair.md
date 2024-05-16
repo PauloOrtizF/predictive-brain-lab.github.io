@@ -3,7 +3,11 @@ layout: default
 title: Chairing the AI Club
 ---
 
-Here we will describe the responsibilities associated with the internal service role of chairing the Artificial Intelligence Club. This is currently one of the academic clubs hosted by the Predictive Brain Lab in which members meet every three weeks to discuss AI/NeuroAI research relevant to the one being performed by members of the lab. 
+In this page we will describe the responsibilities associated with the internal service role of chairing the Artificial Intelligence Club. This is currently one of the academic clubs hosted by the Predictive Brain Lab in which members meet every three weeks to discuss AI/NeuroAI research relevant to the one being performed by members of the lab. 
+
+The current organizers can be found [here](https://docs.google.com/spreadsheets/d/1W09KvN9FVWWYBkcqGhwcD5iK2kIDYqtECI7Z_KV7foc/edit#gid=0).
+
+The agenda (including [possible papers](https://docs.google.com/spreadsheets/d/12Q2rn4AeFgq62O121NeWuABDHpmzTxfgpHqc4UjHQog/edit#gid=222365957) for long discussions) can be found [here](https://docs.google.com/spreadsheets/d/12Q2rn4AeFgq62O121NeWuABDHpmzTxfgpHqc4UjHQog/edit#gid=833871508).
 
 ## Organize AI Club
 
