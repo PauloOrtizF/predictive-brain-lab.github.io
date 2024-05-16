@@ -3,7 +3,7 @@ title: Joint Lab Meetings
 layout: default
 ---
 
-# Join Lab Meetings
+# Joint Lab Meetings
 
 To stimulate discussions and interactions with other researchers, the Predictive Brain Lab sometimes (e.g. annually) decides to hold a ‘joint meeting’ with another group. This can be done _virtually_, but it seems more fruitful if held **in-person**. This day can then be thought of as nice mixture of scientific and social activities to get to know each other. Thus, the best labs to consider for a joint event are the more ‘_local_’ ones – either within Nijmegen or in The Netherlands more broadly. Previously, the lab has gone to Amsterdam for a joint day with the group of [Jan Theeuwes](https://www.theeuweslab.com/), and their group has also come to Nijmegen. We have also held a joint meeting event with the group of [Marius Peelen](https://sites.google.com/site/peelenlab/). 
 
