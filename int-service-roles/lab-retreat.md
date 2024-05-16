@@ -10,7 +10,7 @@ A lab retreat is an opportunity for old and new lab members to get to know each 
 ### Where, when, how long:
 
 The lab retreat generally takes place once a year, in the first couple of months of an academic year (Sep/Oct/Nov), in the Netherlands. For example, in November 2022 the lab stayed at a location in [Berg and Dal](https://www.visitnijmegen.com/berg-en-dal). It typically lasts for two weekdays (so with one night). The example from 2024 is a bit different: we combined the lab retreat with the [CAOs conference](https://event.unitn.it/cimec-caos/) in Rovereto, Italy. Therefore, this timetable is more elaborate than most (both in time and in activities: Restaurants and wine-tasting are not a normal part of the retreat). Therefore, the timetable of the 2022 retreat is also included as an example. 
-Finding and booking a suitable location needs to be done **early**. The committees of 2022 and 2024 started the first preparations about **5/6 months in advance. **
+Finding and booking a suitable location needs to be done **early**. The committees of 2022 and 2024 started the first preparations about **5/6 months in advance.**
 
 #### Who: 
 Active Post-Docs, PhD candidates, interns/RAs (and the PI obviously) are expected to attend. Regarding affiliated members: discuss in advance with Floris who you are supposed to invite for the lab retreat.
