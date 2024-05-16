@@ -23,7 +23,7 @@ Do **not** make the time schedule as full as the one you see in this example fro
 
 * [Schedule 2024](https://docs.google.com/spreadsheets/d/1gS0kouhGomiHJPVe9WaZ6hzc8eX1iS4q/edit#gid=1247763362)
 * [Schedule 2022](https://docs.google.com/spreadsheets/d/1gS0kouhGomiHJPVe9WaZ6hzc8eX1iS4q/edit#gid=1288972896)
-* [Science Activities 2024 in Detail](/int-service-roles/Retreat_2024_science_activities.pdf)
+* [Science Activities 2024 in Detail](./Retreat_2024_science_activities.pdf)
 
 #### Budget: 
 The costs of the lab retreat are covered by Floris. Discuss the budget with him. Budget depends on many factors (lab size etc.) and everything budget-related needs to be discussed with and agreed on by Floris. 
