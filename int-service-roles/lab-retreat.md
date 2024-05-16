@@ -39,10 +39,9 @@ Consider making a backup plan for outdoor activities in case of bad weather.
 
 * [Information Letter](/int-service-roles/Info_letter_Retreat_Rovereto_2024.pdf)
 
-
 The lab retreat is a good moment for a group picture (like the one below!). 
 
-![PBL_P2024](/int-service-roles/DSCF4695.JPG)
+![PBLP2024](/int-service-roles/DSCF4695.JPG)
 
 Smile :)
 
