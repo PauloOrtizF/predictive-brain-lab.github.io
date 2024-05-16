@@ -3,9 +3,11 @@ title: Lab Evaluation
 layout: default
 ---
 
-## Lab evaluation
+## Yearly Lab evaluation
 
 Once a year the lab organizes the annual evaluation. The aim of this is to identify what works well and what could be changed to further improve the lab dynamics, structure and how everyone feels about their place in the lab.
+
+### Tips & Tricks
 
 **How is this done?**
 First, every member fills out an anonymous survey. The latest version of the survey (April 2024) can be found [here](https://docs.google.com/forms/d/e/1FAIpQLSfM2LeVlqC6wTjf_QvAN8zAZcjPamBnY-hgNMLlrICo9tZDoA/viewform?pli=1)
