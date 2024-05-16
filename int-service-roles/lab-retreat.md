@@ -41,7 +41,7 @@ Consider making a backup plan for outdoor activities in case of bad weather.
 
 The lab retreat is a good moment for a group picture (like the one below!). 
 
-![PBLP2024](./DSCF4695.JPG)
+![PBL2024](./DSCF4695.JPG)
 
 Smile :)
 
