@@ -29,7 +29,7 @@ The agenda (including [possible papers](https://docs.google.com/spreadsheets/d/1
 
 ### Chair
 1.	Coordinate with presenters/guest speakers.
-2.	Announce the AI club one week beforehand.
-3.	Organize the paper blitz/round table 
+2.	Announce the AI club **one week beforehand** - this should be done through the AI channel in MatterMost.
+3.	Organize the paper blitz/round table.
 
-
+At the beginning of the academic year/semester ask everyone to sign up in the agenda to present something at least once. If they do not sign up on time, you can add their names to the agenda and let them know of their presentation date. ***_This should only include members interested in attending the AI club._
