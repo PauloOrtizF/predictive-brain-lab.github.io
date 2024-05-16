@@ -8,6 +8,7 @@ This section covers common research practices within the lab. For a general intr
 - [Preparing Experimental Designs](#preparing-experimental-designs)
 - [Giving a Project Proposal Meeting (PPM)](#giving-a-project-proposal-meeting-ppm)
 - [Preregistration](#preregistration)
+- [Internal Services Roles](#internal-services-roles)
 
 # Standard Operating Procedures (SOP)
 The Predictive Brain Lab has adopted standarized procedures for designing experiments and processing data for several years now. The employment of **standard operating procedures (SOP)** has three main advantages over individualized pipelines:
@@ -111,3 +112,12 @@ The following three links are examples of pre-registered studies in the lab usin
 * Matthias Fritsche - [The role of feature-based attention for serial dependence in perceptual decision making](https://osf.io/q7gj3/)
 * Chuyao Yan - [Predicting groups of objects in the visual ventral stream](https://osf.io/s59p6)
 * Jonas Karolis Degutis - [Laminar fMRI at 3T: A replication attempt of top-down and bottom-up laminar activity in the early visual cortex](https://osf.io/txuye/)
+
+
+# Internal Services Roles (Guidelines)
+
+As part of the Predictive Brain Lab, various roles need to be fulfilled to ensure a lively and stimulating lab experience. These roles involve the organization of the (digital) resources and group activities. In this section of the WIKI we will provide some guidelines on the responsibilities linked to each position. 
+
+To see who is currently responsible for each role, click [here](https://docs.google.com/spreadsheets/d/1W09KvN9FVWWYBkcqGhwcD5iK2kIDYqtECI7Z_KV7foc/edit#gid=0). Some of these roles will involve more effort, so multiple researchers will be assigned to them.
+
+* Chairing the AI Club
