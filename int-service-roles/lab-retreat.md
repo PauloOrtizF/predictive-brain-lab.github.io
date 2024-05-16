@@ -37,11 +37,11 @@ Make a questionnaire to inquire about dietary restrictions, yes/no to alcohol, r
 It is helpful to make a MatterMost channel for the committee to provide information to the lab and for the lab members to ask questions share. Furthermore, it helps to share and information letter with the lab with all the relevant information (e.g., two weeks before the retreat, include a packing list, important times and locations etc.), see the 2024 example. 
 Consider making a backup plan for outdoor activities in case of bad weather.
 
-* [Information Letter](/Info_letter_Retreat_Rovereto_2024.pdf)
+* [Information Letter](/int-service-roles/Info_letter_Retreat_Rovereto_2024.pdf)
 
 The lab retreat is a good moment for a group picture (like the one below!). 
 
-![PBLP2024](/int-service-roles/DSCF4695.JPG)
+![PBLP2024](/predictive-brain-lab.github.io/int-service-roles/DSCF4695.JPG)
 
 Smile :)
 
